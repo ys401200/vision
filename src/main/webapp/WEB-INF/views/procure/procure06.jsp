@@ -1,0 +1,175 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="ui" uri="ui"%>
+<!--서브 비주얼이미지 S-->
+<section id="sub_visual">
+	<div class="sub_visual_txt">
+		<span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
+		<h2>조달제품</h2>
+	</div>
+	<div class="viimg svis03 visualZoom">
+	</div>
+</section>
+<!--//서브 비주얼이미지 E-->
+      
+      <!-- content S -->
+<div id="sub_container">
+	<!--페이지경로-->
+	<div class="path">
+		<ul class="depth">
+			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
+			<li class="depth_sub">
+				<a href="javascript:void('0')">조달제품</a>
+				<ul>
+					<li><a href="<c:url value='/company/company01'/>">회사소개</a></li>
+					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
+					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
+					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
+					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a></li>
+					<li><a href="<c:url value='/security/security01'/>">보안SI</a></li>
+					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a></li>
+					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a></li>
+				</ul>
+			</li>
+			<li class="depth_sub"><a href="javascript:void('0')">OLIVE TECH</a>
+				<ul>
+					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
+                    <li><a href="<c:url value='/procure/procure02'/>">팔로알토네트웍스</a></li>
+                    <li><a href="<c:url value='/procure/procure03'/>">넷코아테크</a></li>
+                    <li><a href="<c:url value='/procure/procure04'/>">맨텍</a></li>
+                    <!--<li><a href="<c:url value='/procure/procure05'/>">LG히다찌</a></li>-->
+                    <li><a href="<c:url value='/procure/procure06'/>">올리브텍</a></li>
+                    <li><a href="<c:url value='/procure/procure07'/>">인젠트</a></li>
+                    <!--<li><a href="<c:url value='/procure/procure08'/>">BeyondTrust</a></li>-->
+				</ul>
+			</li>
+			<li class="depth_sub2"><a href="javascript:void('0')">WORM 스토리지  </a>
+				<ul>
+					<li><a href="<c:url value='/procure/procure06'/>">WORM 스토리지  </a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!--//페이지경로-->
+
+	<div id="sub_middle">
+		<h3 class="ctle">WORM 스토리지  </h3>
+		
+		<!--컨텐츠 S-->
+		<div class="contents">
+			<div class="innerwrap">
+			<form id="boardFrm" action="<c:url value='/procure/procure05'/>" method="post" >
+			<input type="hidden" id="pageIndex" name="pageIndex" value="1">
+				<div class="procure_hd pro_bg06">
+					<h3>WORM 스토리지</h3>
+					<!-- <p class="stxt"><span>Traffic Management System</span></p> -->
+					<div class="conts">
+						<div class="title">
+							<p>IoT 디바이스를위한 통합솔루션</p>
+						</div>
+						<div class="conts_in">
+							현존하는 다양한 보안 솔루션들은 주로 외부 침입 탐지 및 방지, 주요 데이터의 외부 유출 방지, 데이터 오남용 방지 등의 목적으로 합니다. 하지만 법적인 증거를 위해 원본이 보존되어야 하는 계약서, 진료기록 등의 컴플라이언스 데이터나 설계데이터, 소스코드, 각종 문서 등 조직의 핵심 디지털 자산에 대한 무단 삭제, 우발적 삭제 및 의도적 변조 행위 등을 막을 수 있는 보안 솔루션은 없습니다<br>
+							현대의 디지털 데이터는 하드디스크 및 SSD 기반의 대용량 스토리지 장치에 저장되고 활용 됩니다. 이러한 일반적인 스토리지의 문제점은 작성자를 포함한 권한을 가진 사용자 및 관리자 권한을 가진 사용자가 데이터를 삭제하거나 변조하는 것을 근본적으로 막을 수 없다는 것입니다.<br>
+올리브텍은 한 번 기록된 데이터에 대해서는 파일단위로 지정되는 보존 기간 동안에는 어떠한 권한으로도 파일을 삭제하거나 변조할 수 없도록 하는 기능을 제공하는 WORM 스토리지 OS 원천 기술을 개발하였으며, 이 보안 WORM 스토리지 OS를 탑재한 하드디스크 및 SSD 기반의 대용량 고성능 WORM 스토리지 플랫폼, 보급형 WORM 스토리지 플랫폼, 가상 WORM 스토리지 어플라이언스 및 WORM 융합 솔루션을 제공합니다.
+						</div>
+					</div>
+					<div class="btn_wr">
+						<c:forEach items="${fileList }" var="list" varStatus="status">
+							<c:if test="${status.index lt 1}">
+								<span class="btn_brochure"><a href="<c:url value='/common/FileDown.do?fileId=${list.seq }'/>">제품브로셔</a></span>
+							</c:if>	
+						</c:forEach>
+					</div>
+				</div>
+				<!--조달제품 리스트 S-->
+				<%-- <div class="procure_list">
+					<ul>
+						<c:forEach var="board" items="${itemList }" varStatus="status">
+						<li>
+							<c:choose>
+							    <c:when test="${'<img/>' eq board.content}">
+							        <p class="pdt_img"><img src="<c:url value='/resources/img/procure/noimg.gif'/>"alt="noimg"/></p>
+							    </c:when>
+							    <c:otherwise>
+							        <p class="pdt_img">${board.content }</p>
+							    </c:otherwise>
+							</c:choose>
+							<div class="product_info">
+								<p class="pdt_title"><span class="maker">OLIVE TECH</span><br><span class="pdt_name">${board.title }</span></p>
+								<p class="etc_info">${board.subTitle }</p>
+								<ul class="info">
+									<li><span class="tit">물품식별번호</span> ${board.itemNumber }</li>
+									<li><span class="tit">조달등록가격</span> ${board.price }</li>
+								</ul>
+							</div>
+						</li>
+						</c:forEach>
+					</ul>
+				</div> --%>
+
+				<!--20211006 하주리 수정시작-->
+					<div class="ssl_wrap">
+						<%-- <h3 class="cnt_tit ssl_tit">APPLICATION INSIGHT WAF Line-UP</h3> --%>
+						<div class="ssl_con3">
+                            <div class="ssl_con3_c ssl_con3_c1 ssl_olivetech">
+                                <img class="ssl_con3_c1_img" src="../../../resources/new_img/olivetechvworm.jpg" alt="img"/>
+                            </div>
+                            <div class="ssl_con3_c ssl_con3_c2">
+                                <div class="ssl_con3_c1_in1"></div>
+                                <div class="ssl_con3_c2_in2">
+                                    <div>OLIVE TECH</div>
+                                    <div>WORM 스토리지 -보안소프트웨어</div>
+                                </div>
+                                <div class="ssl_con3_c1_in3">보안소프트웨어, 올리브텍, Splentec Storage v4.1, 10TB</div>
+                                <div class="ssl_con3_c1_in4"><span>물품식별번호</span></div>
+                                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>26,000,000 원</div>
+                            </div>
+						</div>
+
+						<div class="ssl_con3">
+                            <div class="ssl_con3_c ssl_con3_c1 ssl_olivetech">
+                                <img class="ssl_con3_c1_img" src="../../../resources/new_img/olivetechvworm.jpg" alt="img"/>
+                            </div>
+                            <div class="ssl_con3_c ssl_con3_c2">
+                                <div class="ssl_con3_c1_in1"></div>
+                                <div class="ssl_con3_c2_in2">
+                                    <div>OLIVE TECH</div>
+                                    <div>WORM 스토리지 -보안소프트웨어</div>
+                                </div>
+                                <div class="ssl_con3_c1_in3">보안소프트웨어, 올리브텍, Splentec Storage v4.1, 1TB 추가</div>
+                                <div class="ssl_con3_c1_in4"><span>물품식별번호</span></div>
+                                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>1,100,000 원</div>
+                            </div>
+						</div>
+					</div><!--ssl_wrap끝-->
+				<!--20211006 하주리 수정끝-->
+				</form>
+				<!--//조달제품 리스트 E-->
+
+				<!--페이징-->
+				<div class="paging">
+					<ul>
+						<ui:pagination paginationInfo="${paginationInfo}" type="image" jsFunction="goPageNum" />
+					</ul>
+				</div>
+				<!--//페이징-->
+				<!-- 모바일용 페이징 S -->
+				<div class="mb_paging_btn">
+				<ui:pagination paginationInfo="${paginationInfo2}" type="imageMobile" jsFunction="goPageNum" />
+<!-- 					<button class="prev">이전</button> <span class="total">3/15</span> <button class="next">다음</button> -->
+				</div>
+				<!-- 모바일용 페이징 E -->
+
+			</div>
+		</div>
+		<!--//컨텐츠 E-->
+	</div>
+</div>
+<!-- //content E -->
+<script type="text/javascript">
+function goPageNum(num) {
+    $("#pageIndex").val(num);
+    
+    $("#boardFrm").submit();
+}
+</script>

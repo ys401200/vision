@@ -1,0 +1,441 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!--서브 비주얼이미지 S-->
+<section id="sub_visual">
+	<div class="sub_visual_txt">
+		<span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
+		<h2>SECURITY</h2>
+	</div>
+	<div class="viimg svis02 visualZoom">
+	</div>
+</section>
+<!--//서브 비주얼이미지 E-->
+      
+      <!-- content S -->
+<div id="sub_container">
+	<!--페이지경로-->
+	<div class="path">
+		<ul class="depth">
+			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
+			<li class="depth_sub">
+				<a href="javascript:void('0')">SECURITY</a>
+				<ul>
+					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
+					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
+					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
+					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
+					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
+					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
+					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
+					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+				</ul>
+			</li>
+			<li class="depth_sub"><a href="javascript:void('0')">SECURITY</a>
+				<ul>
+					<li><a href="<c:url value='/solution/solution01'/>">SECURITY</a></li>
+					<%-- <li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
+					<li><a href="<c:url value='/solution/solution03'/>">Database</a></li> --%>
+					<!-- <li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
+					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li> -->
+				</ul>
+			</li>
+			<li class="depth_sub2"><a href="javascript:void('0')">글로벌고성능방화벽</a>
+				<ul>
+					<li><a href="<c:url value='/solution/solution01_2'/>">글로벌고성능방화벽</a></li>
+					<li><a href="<c:url value='/solution/solution01'/>">차세대방화벽</a></li>
+					<li><a href="<c:url value='/solution/solution01_3'/>">트래픽분석관리시스템</a></li>
+					<li><a href="<c:url value='/solution/solution01_4'/>">유해사이트차단</a></li>
+					<li><a href="<c:url value='/solution/solution01_5'/>">웹방화벽</a></li>
+					<li><a href="<c:url value='/solution/solution04_2'/>">SSL 가시성 솔루션</a></li>
+					<li><a href="<c:url value='/solution/solution01_6'/>">PC개인정보보호</a></li>
+					<li><a href="<c:url value='/solution/solution01_7'/>">Smart NAC</a></li>
+					<li><a href="<c:url value='/solution/solution02_3'/>">보안 V-WORM 스토리지</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!--//페이지경로-->
+
+	<div id="sub_middle">
+		<h3 class="ctle">글로벌고성능방화벽</h3>
+		
+		<!--컨텐츠 S-->
+		<div class="contents">
+			<!--차세대IPS S-->
+			<div class="solution_hd sol01">
+				<div class="inner">
+					<h3 class="hd_tit">글로벌고성능방화벽</h3>
+					<p class="mtxt">NGFW(차세대 방화벽)</p>
+					<%-- <p class="mtxt"><span class="txt_str">SECUI MFI</span> is <span class="txt_str">the next generation IPS</span></p> --%>
+					<p class="center">기존 방화벽은 단지 포트와 IP에 대하여 처리합니다. 60%이상의 Application에 대해 기존 방화벽에서는 처리가 불가합니다.<br/>
+					이러한 문제를 글로벌고성능방화벽이 처리합니다. 최고의 성능을 보장하는 NGFW(차세대 방화벽)입니다.</p>
+				</div>	
+			</div>
+			<div class="inner">
+				<div class="solution01">
+					<!--20210928에 업로드 한 거 시작-->
+					<h3 class="cnt_tit">글로벌고성능방화벽 필요성</h3>
+					<div class="NGFW_text NGFW_text1">1. 레거시 방화벽의 한계</div>
+					<div class="NGFW_img1">
+						<img src="<c:url value='/resources/new_img/NGFW1.jpg'/>" alt=""/>
+					</div>
+					<div class="NGFW_text1_2">기존 방화벽은 Port/IP 를 기반으로 보안 정책을 수립하는 기술을 기반으로 개발되어 현재까지 사용 중입니다.</div>
+
+					<div class="NGFW_text NGFW_text2">2. 복잡해지는 네트워크에 비해 열악한 사용자 환경</div>
+					<div class="box_wr1 NGFW_text_img">
+						<img src="<c:url value='/resources/new_img/NGFW2.jpg'/>" alt=""/>
+					</div>
+
+					<div class="NGFW_text NGFW_text3">3. 사이버 공격에 대한 포괄적인 방어 필요</div>
+					<div class="NGFW_box_wrap1">
+						<div class="NGFW_box_in_wrap">
+							<div class="NGFW_box_in_img">
+								<img src="<c:url value='/resources/new_img/NGFW3.jpg'/>" alt=""/>
+							</div>
+							<div class="NGFW_box_text">완전한 가시성</div>
+						</div>
+						<div class="NGFW_box_in_wrap">
+							<div class="NGFW_box_in_img">
+								<img src="<c:url value='/resources/new_img/NGFW4.jpg'/>" alt=""/>
+							</div>
+							<div class="NGFW_box_text">공격 표면 감소</div>
+						</div>
+						<div class="NGFW_box_in_wrap">
+							<div class="NGFW_box_in_img">
+								<img src="<c:url value='/resources/new_img/NGFW5.jpg'/>" alt=""/>
+							</div>
+							<div class="NGFW_box_text">알려진 위협 방지</div>
+						</div>
+						<div class="NGFW_box_in_wrap">
+							<div class="NGFW_box_in_img">
+								<img src="<c:url value='/resources/new_img/NGFW6.jpg'/>" alt=""/>
+							</div>
+							<div class="NGFW_box_text">알려지지 않은 위협</div>
+						</div>
+					</div>
+
+					<h3 class="cnt_tit">NGFW의 특장점</h3>
+					<div class="NGFW_text NGFW_text4">1. 다단계 방어 기능</div>
+					<div class="NGFW_box_wrap2">
+						<div class="NGFW_box_text2_1">
+							<div class="NGFW_box_text2_1-title">완전한 가시성</div>
+							<div>모든 애플리케이션</div>
+							<div>모든 사용자</div>
+							<div>모든 콘텐츠</div>
+							<div>모든 디바이스</div>
+							<div>모든 엔트포인트</div>
+							<div>암호화 트래픽</div>
+							<div>Saas & 클라우드</div>
+							<div>모바일</div>
+						</div>
+
+						<div class="NGFW_box_text2_1">
+							<div class="NGFW_box_text2_1-title">공격 표면 감소</div>
+							<div>악성 "앱" 차단</div>
+							<div>앱 기능 제한</div>
+							<div>파일 타입 제한</div>
+							<div>고위험 웹사이트 차단</div>
+							<div>사용자 확인</div>
+							<div>디바이스 제한</div>
+							<div>공유 제어</div>
+						</div>
+
+						<div class="NGFW_box_text2_1">
+							<div class="NGFW_box_text2_1-title">알려진 위험방지</div>
+							<div>익스플로잇</div>
+							<div>악성코드</div>
+							<div>C & C</div>
+							<div>악성 웹사이트</div>
+							<div>악성 도메인</div>
+							<div>도난당한 자격증명</div>
+						</div>
+
+						<div class="NGFW_box_text2_1">
+							<div class="NGFW_box_text2_1-title">알려지지 않은 위험</div>
+							<div>동적 분석</div>
+							<div>익스플로잇 기법</div>
+							<div>악성코드 기법</div>
+							<div>머신 러닝</div>
+							<div>정적 분석</div>
+							<div>이상 탐지</div>
+							<div>애널리스틱스</div>
+							</div>
+					</div>
+
+					<div class="NGFW_text NGFW_text5">2. 최고의 성능을 보장하는 하드웨어 아키텍처</div>
+					<div class="box_wr1_NGFW_in">
+						<img src="<c:url value='/resources/new_img/NGFW7.jpg'/>" alt=""/>
+					</div>
+					<div class="NGFW_box_text3_1">
+					<div class="NGFW_box_in_text3_1">글로벌고성능방화벽의 Single Pass 동작 방식</div>
+						<div class="NGFW_box_in_text3_2list"></div> 
+						<div class="NGFW_box_in_text3_2">글로벌고성능방화벽을 고려한 하드웨어 아키텍쳐 구조</div>
+						<div class="NGFW_box_in_text3_2list"></div>
+						<div class="NGFW_box_in_text3_2">국제 시그니쳐 데이타베이스를 기반으로<br/>
+						Single Pass 탐지 기술을 제공하여 Performance<br/>
+						저하 없이 정확한 어플리케이션 탐지 및 제어 가능
+						</div>
+						<div class="NGFW_box_in_text3_2list"></div>
+						<div class="NGFW_box_in_text3_2"> 기존 방화벽에서 제공하는 어플리케이션  탐지는<br/>
+						서로 다른 제조사 기술 및 제품을 기반으로 모듈<br/> 
+						탑제를 통한 보안기능 제공하여 심각한 성능 저하를 초래함.
+						</div>
+					</div>
+
+					<div class="NGFW_text NGFW_text6">3. 업계 최초 머신러닝 기반의 NGFW</div>
+					<div class="NGFW_box_wrap">
+						<div class="NGFW_box_in2_wrap">
+							<img src="<c:url value='/resources/new_img/NGFW8.jpg'/>" alt=""/>
+							<div class="NGFW_box_text_in2">파일 보호: 즉시</div>
+						</div>
+						<div class="NGFW_box_in2_wrap">
+							<img src="<c:url value='/resources/new_img/NGFW9.jpg'/>" alt=""/>
+							<div class="NGFW_box_text_in2">URL 보호: 즉시</div>
+						</div>
+						<div class="NGFW_box_in2_wrap">
+							<img src="<c:url value='/resources/new_img/NGFW10.jpg'/>" alt=""/>
+							<div class="NGFW_box_text_in2">DNS 보호: 즉시</div>
+						</div>
+					</div>
+					<div class="NGFW_box_text4_1">알려지지 않은 위협을 최대 95%까지 보호</div>
+
+					<h3 class="cnt_tit NGFWcnt_tit">주요 제품 라인업</h3>
+					<table class="NGFW_table_wrap" border="1" width="100%>
+							<tr class="NGFW_table NGFW_table1">
+								<td></td>
+								<td><p>PA-3260</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td>
+								<%-- <td><p>PA-3250</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td> --%>
+								<td><p>PA-3220</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>NGFW Throughput</td>
+								<td>10Gbps</td>
+								<%-- <td>6.6Gbps</td> --%>
+								<td>5Gbps</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>TP Throughput</td>
+								<td>4.4Gbps</td>
+								<%-- <td>3Gbps</td> --%>
+								<td>2.4Gbps</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>Maximum sessions</td>
+								<td>3,000,000</td>
+								<%-- <td>2,000,000</td> --%>
+								<td>1,000,000</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>Interfaces</td>
+								<td>10/100/1000 Cu x 12<br/>
+								1G/10G SFP/SFP+ x 8<br/>
+								40G QSFP+ x 4
+								</td>
+								<%-- <td>10/100/1000 Cu x 12<br/>
+								1G/10G SFP/SFP+ x 8
+								</td> --%>
+								<td>10/100/1000 Cu x 12<br/>
+								1G/10G SFP/SFP+ x 4<br/>
+								1G SFP x 4
+								</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>Redundant Power</td>
+								<td>O</td>
+								<%-- <td>O</td> --%>
+								<td>O</td>
+							</tr>
+						</table>
+
+						<table class="NGFW_table_wrap" border="1" width="100%>
+							<tr class="NGFW_table NGFW_table1">
+								<td></td>
+								<td><p>PA-850</p><img src="<c:url value='/resources/new_img/NGFW13.jpg'/>" alt=""/></td>
+								<td><p>PA-820</p><img src="<c:url value='/resources/new_img/NGFW13.jpg'/>" alt=""/></td>
+								<td><p>PA-220</p><img src="<c:url value='/resources/new_img/NGFW14.png'/>" alt=""/></td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>NGFW Throughput</td>
+								<td>20Gbps</td>
+								<td>1.6Gbps</td>
+								<td>580Mbps</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>TP Throughput</td>
+								<td>1Gbps</td>
+								<td>800Mbps</td>
+								<td>280Mbps</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>Maximum sessions</td>
+								<td>192,000</td>
+								<td>128,000</td>
+								<td>64,000</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>Interfaces</td>
+								<td>10/100/1000 Cu x 4<br/>
+								10G SFP+ x 4<br/>
+								1G SFP x 4
+								</td>
+								<td>10/100/1000 Cu x 4<br/>
+								1G SFP x 8
+								</td>
+								<td>10/100/1000 Cu x 8
+								</td>
+							</tr>
+							<tr class="NGFW_table">
+								<td>Redundant Power</td>
+								<td>O</td>
+								<td>X</td>
+								<td>X</td>
+							</tr>
+						</table>
+					<%-- <table class="NGFW_table_wrap" border="1" width="100%>
+						<tr class="NGFW_table NGFW_table1">
+							<td></td>
+							<td><p>PA-5260</p><img src="<c:url value='/resources/new_img/NGFW11.png'/>" alt=""/></td>
+							<td><p>PA-5250</p><img src="<c:url value='/resources/new_img/NGFW11.png'/>" alt=""/></td>
+							<td><p>PA-5220</p><img src="<c:url value='/resources/new_img/NGFW11.png'/>" alt=""/></td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>NGFW Throughput</td>
+							<td>64Gbps</td>
+							<td>40Gbps</td>
+							<td>20Gbps</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>TP Throughput</td>
+							<td>31.5Gbps</td>
+							<td>21Gbps</td>
+							<td>8.9Gbps</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Maximum sessions</td>
+							<td>32,000,000</td>
+							<td>8,000,000</td>
+							<td>4,000,000</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Interfaces</td>
+							<td>100/1000/10G Cu x 4<br/>
+								1G/10G SFP/SFP+ x 16<br/>
+								40G/100G QSFP28 x 4</td>
+							<td>100/1000/10G Cu x 4<br/>
+								1G/10G SFP/SFP+ x 16<br/>
+								40G/100G QSFP28 x 4</td>
+							<td>100/1000/10G Cu x 4<br/>
+								1G/10G SFP/SFP+ x 16<br/>
+								40G QSFP+ x 4</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Redundant Power</td>
+							<td>O</td>
+							<td>O</td>
+							<td>O</td>
+						</tr>
+					</table>
+
+					<table class="NGFW_table_wrap" border="1" width="100%>
+						<tr class="NGFW_table NGFW_table1">
+							<td></td>
+							<td><p>PA-3260</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td>
+							<td><p>PA-3250</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td>
+							<td><p>PA-3220</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>NGFW Throughput</td>
+							<td>10Gbps</td>
+							<td>6.6Gbps</td>
+							<td>5Gbps</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>TP Throughput</td>
+							<td>4.4Gbps</td>
+							<td>3Gbps</td>
+							<td>2.4Gbps</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Maximum sessions</td>
+							<td>3,000,000</td>
+							<td>2,000,000</td>
+							<td>1,000,000</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Interfaces</td>
+							<td>10/100/1000 Cu x 12<br/>
+							1G/10G SFP/SFP+ x 8<br/>
+							40G QSFP+ x 4
+							</td>
+							<td>10/100/1000 Cu x 12<br/>
+							1G/10G SFP/SFP+ x 8
+							</td>
+							<td>10/100/1000 Cu x 12<br/>
+							1G/10G SFP/SFP+ x 4<br/>
+							1G SFP x 4
+							</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Redundant Power</td>
+							<td>O</td>
+							<td>O</td>
+							<td>O</td>
+						</tr>
+					</table>
+
+					<table class="NGFW_table_wrap" border="1" width="100%>
+						<tr class="NGFW_table NGFW_table1">
+							<td></td>
+							<td><p>PA-850</p><img src="<c:url value='/resources/new_img/NGFW13.jpg'/>" alt=""/></td>
+							<td><p>PA-820</p><img src="<c:url value='/resources/new_img/NGFW13.jpg'/>" alt=""/></td>
+							<td><p>PA-220</p><img src="<c:url value='/resources/new_img/NGFW14.png'/>" alt=""/></td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>NGFW Throughput</td>
+							<td>20Gbps</td>
+							<td>1.6Gbps</td>
+							<td>580Mbps</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>TP Throughput</td>
+							<td>1Gbps</td>
+							<td>800Mbps</td>
+							<td>280Mbps</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Maximum sessions</td>
+							<td>192,000</td>
+							<td>128,000</td>
+							<td>64,000</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Interfaces</td>
+							<td>10/100/1000 Cu x 4<br/>
+							10G SFP+ x 4<br/>
+							1G SFP x 4
+							</td>
+							<td>10/100/1000 Cu x 4<br/>
+							1G SFP x 8
+							</td>
+							<td>10/100/1000 Cu x 8
+							</td>
+						</tr>
+						<tr class="NGFW_table">
+							<td>Redundant Power</td>
+							<td>O</td>
+							<td>X</td>
+							<td>X</td>
+						</tr>
+					</table> --%>
+					<!--20210928에 업로드 한 거 끝-->
+
+
+				</div>
+			</div>
+			<!--//차세대IPS E-->
+		</div>
+		<!--//컨텐츠 E-->
+	</div>
+	
+      </div>
+<!-- //content E -->
