@@ -22,13 +22,9 @@
 				<a href="javascript:void('0')">회사소개</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+					<li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">협력사</a>
@@ -54,68 +50,32 @@
 				<div class="partner">
 					<ul>
 						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.monitorapp.com/kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner03.gif'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='https://www.paloaltonetworks.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/paloalto.png'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.tilon.com'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner08.png'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='https://www.arista.com/ko/'/>" target="_blank"><img src="<c:url value='/resources/img/company/arista.png'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.netcoretech.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner02.gif'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='http://www.olivetech.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/olivetech.gif'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<%-- <p class="partner_box"><a href="<c:url value='http://www.secui.com/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner01.gif'/>" alt=""/></a></p> --%>
-							<p class="partner_box"><a href="<c:url value='https://www.paloaltonetworks.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/palologo.png'/>" alt=""/></a></p>
-						</li>
-						<!-- <li>
-							<p class="partner_box"><a href="<c:url value='http://www.sqisoft.com'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner09.png'/>" alt=""/></a></p>
-						</li> -->
-						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.lghitachi.co.kr'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner10.gif'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='https://www.netcoretech.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/nct.gif'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<p class="partner_box"><a href="<c:url value='http://ksign.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner05.gif'/>" alt=""/></a></p>
-						</li>
-						<!-- <li>
-							<p class="partner_box"><a href="<c:url value='http://altibase.com/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner11.png'/>" alt=""/></a></p>
-						</li> -->
-						<li>
-							<p class="partner_box"><a href="<c:url value='https://www.arista.com/ko/'/>" target="_blank"><img src="<c:url value='/resources/img/company/logo_arista_blue.png'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='http://www.mantech.co.kr'/>" target="_blank"><img src="<c:url value='/resources/img/company/mantech.png'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.jiransoft.co.kr'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner12.png'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='http://tilon.com'/>" target="_blank"><img src="<c:url value='/resources/img/company/tilon.png'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.netman.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner13.png'/>" alt=""/></a></p>
-						</li>
-						<!-- <li>
-							<p class="partner_box"><a href="<c:url value='http://cubebite.com/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner14.png'/>" alt=""/></a></p>
-						</li> -->
-						<!-- <li>
-							<p class="partner_box"><a href="<c:url value='http://www.bizhub.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner15.png'/>" alt=""/></a></p>
-						</li> -->
-						<li>
-							<p class="partner_box"><a href="<c:url value='http://toogram.com/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner16.png'/>" alt=""/></a></p>
-						</li>
-
-
-						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.olivetech.co.kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/partner17.gif'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='https://www.monitorapp/kr/'/>" target="_blank"><img src="<c:url value='/resources/img/company/monitorapp.png'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.inzent.com/'/>" target="_blank"><img src="<c:url value='/resources/img/company/inzentlogo.png'/>" alt=""/></a></p>
-						</li>
-
-
-
-
-
-						<!-- 
-						<li>
-							<p class="partner_box"><a href="<c:url value='http://www.handream.net/main.php'/>" target="_blank"><img src="../../img/company/partner06.gif'/>" alt=""/></a></p>
+							<p class="partner_box"><a href="<c:url value='http://www.inzent.com/'/>" target="_blank"><img src="<c:url value='/resources/img/company/inzent.png'/>" alt=""/></a></p>
 						</li>
 						<li>
-							<p class="partner_box"><a href="http://www.piolink.com/kr/" target="_blank"><img src="../../img/company/partner07.gif" alt=""/></a></p>
-						</li> -->
+							<p class="partner_box"><a href="<c:url value='http://www.pribit.com/main'/>" target="_blank"><img src="<c:url value='/resources/img/company/pribit.png'/>" alt=""/></a></p>
+						</li>
 					</ul>
 				</div>
 			</div>

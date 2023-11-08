@@ -4,7 +4,7 @@
 <section id="sub_visual">
 	<div class="sub_visual_txt">
 		<span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
-		<h2>SECURITY</h2>
+		<h2>Solution</h2>
 	</div>
 	<div class="viimg svis02 visualZoom">
 	</div>
@@ -18,31 +18,25 @@
 		<ul class="depth">
 			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
 			<li class="depth_sub">
-				<a href="javascript:void('0')">SECURITY</a>
+				<a href="javascript:void('0')">사업영역</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+					<li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
+					<li><a href="<c:url value='/procure/procure01'/>" target="_blank">비즈코어</a>
 				</ul>
 			</li>
-			<li class="depth_sub"><a href="javascript:void('0')">SECURITY</a>
+			<li class="depth_sub"><a href="javascript:void('0')">solution</a>
 				<ul>
-					<li><a href="<c:url value='/solution/solution01'/>">SECURITY</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
-					<li><a href="<c:url value='/solution/solution03'/>">Database</a></li> --%>
-					<!-- <li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
-					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li> -->
+					<li><a href="<c:url value='/solution/solution03_2'/>">지능형 IoT</a></li>
+					<li><a href="<c:url value='/solution/solution01_2'/>">solution</a></li>
+					<li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
+					<li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">트래픽분석관리시스템</a>
 				<ul>
 					<li><a href="<c:url value='/solution/solution01_2'/>">AI방화벽</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution01'/>">차세대방화벽</a></li> --%>
 					<li><a href="<c:url value='/solution/solution01_3'/>">트래픽분석관리시스템</a></li>
 					<li><a href="<c:url value='/solution/solution01_4'/>">유해사이트차단</a></li>
 					<li><a href="<c:url value='/solution/solution01_5'/>">웹방화벽</a></li>
@@ -57,7 +51,6 @@
 	<!--//페이지경로-->
 
 	<div id="sub_middle">
-		<h3 class="ctle">트래픽분석관리시스템</h3>
 		
 		<!--컨텐츠 S-->
 		<div class="contents">

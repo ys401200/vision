@@ -1,6 +1,5 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="ui" uri="ui"%>
 <!--서브 비주얼이미지 S-->
 <section id="sub_visual">
     <div class="sub_visual_txt">
@@ -20,29 +19,26 @@
             <li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
             <li class="depth_sub">
                 <a href="javascript:void('0')">조달제품</a>
-                <ul>
-                    <li><a href="<c:url value='/company/company01'/>">회사소개</a></li>
-                    <li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-                    <li><a href="<c:url value='/procure/procure01'/>">조달제품</a></li>
-                    <li><a href="<c:url value='/security/security01'/>">보안SI</a></li>
-                    <li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a></li>
-                    <li><a href="<c:url value='/news/notice_list'/>">NEWS</a></li>
-                </ul>
+				<ul>
+                    <li><a href="<c:url value='/company/company01'/>">회사소개</a>
+                    <li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+                    <li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+                    <li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
+				</ul>
             </li>
             <li class="depth_sub"><a href="javascript:void('0')">모니터랩</a>
-                <ul>
-                    <li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
+				<ul>
                     <li><a href="<c:url value='/procure/procure02'/>">팔로알토네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure05'/>">아리스타네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure03'/>">넷코아테크</a></li>
                     <li><a href="<c:url value='/procure/procure04'/>">맨텍</a></li>
                     <!--<li><a href="<c:url value='/procure/procure05'/>">LG히다찌</a></li>-->
                     <li><a href="<c:url value='/procure/procure06'/>">올리브텍</a></li>
                     <li><a href="<c:url value='/procure/procure07'/>">인젠트</a></li>
                     <!--<li><a href="<c:url value='/procure/procure08'/>">BeyondTrust</a></li>-->
-                </ul>
-            </li>
+				</ul>
+			</li>
             <li class="depth_sub2"><a href="javascript:void('0')">웹방화벽</a>
                 <ul>
                     <li><a href="<c:url value='/procure/procure01'/>">웹방화벽</a></li>
@@ -164,7 +160,7 @@
                                 </div>
                                 <div class="ssl_con3_c1_in3">웹 애플리케이션 보호에 특화된 제품</div>
                                 <div class="ssl_con3_c1_in4"><span>물품식별번호</span>24100920</div>
-                                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>59,500,000 원</div>
+                                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>57,715,000 원</div>
                             </div>
 						</div>
 

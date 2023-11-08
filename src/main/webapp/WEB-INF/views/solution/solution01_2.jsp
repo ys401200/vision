@@ -1,13 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!--서브 비주얼이미지 S-->
+<style>
+.biz_secWrap>div{margin-bottom:50px; overflow:hidden;}
+@media (max-width:1350px) and (min-width:769px) {
+	.contents .inner {width:95%;}
+
+	.conImgFloat_default img {width:100%;}
+	.AICon7 .c7_img1 img {width:100%;}
+	.AICon7 .conTextFloat_default {padding-left:50px; box-sizing:border-box;}
+}
+
+</style>
 <section id="sub_visual">
-	<div class="sub_visual_txt">
-		<%-- <span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span> --%>
-		<h2>SECURITY</h2>
-	</div>
-	<div class="viimg svis02 visualZoom">
-	</div>
+        <div class="sub_visual_txt">
+                <span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
+                <h2>Solution</h2>
+        </div>
+        <div class="viimg svis02 visualZoom">
+        </div>
 </section>
 <!--//서브 비주얼이미지 E-->
       
@@ -18,31 +29,25 @@
 		<ul class="depth">
 			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
 			<li class="depth_sub">
-				<a href="javascript:void('0')">SECURITY</a>
+				<a href="javascript:void('0')">사업영역</a>
 				<ul>
-					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+                            <li><a href="<c:url value='/company/company01'/>">회사소개</a>
+                            <li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+                            <li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+                            <li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
 				</ul>
 			</li>
-			<li class="depth_sub"><a href="javascript:void('0')">SECURITY</a>
+			<li class="depth_sub"><a href="javascript:void('0')">solution</a>
 				<ul>
-					<li><a href="<c:url value='/solution/solution01'/>">SECURITY</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
-					<li><a href="<c:url value='/solution/solution03'/>">Database</a></li> --%>
-					<!-- <li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
-					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li> -->
+					<li><a href="<c:url value='/solution/solution03_2'/>">지능형 IoT</a></li>
+					<li><a href="<c:url value='/solution/solution01_2'/>">solution</a></li>
+					<li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
+					<li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">AI방화벽</a>
 				<ul>
 					<li><a href="<c:url value='/solution/solution01_2'/>">AI방화벽</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution01'/>">차세대방화벽</a></li> --%>
 					<li><a href="<c:url value='/solution/solution01_3'/>">트래픽분석관리시스템</a></li>
 					<li><a href="<c:url value='/solution/solution01_4'/>">유해사이트차단</a></li>
 					<li><a href="<c:url value='/solution/solution01_5'/>">웹방화벽</a></li>
@@ -82,15 +87,15 @@
 								<img src="<c:url value='/resources/new_img/AI1.jpg'/>" alt=""/>
 							</div>
 							<div class="c1_text conTextFloat_default">
-							<p><span></span>방화벽은 IP, Port 가 아닌 어플리케이션 자체를 인지하고 제어해야 합니다.<br/>
-							예를 들어 90 년대에는 상호규약에 따라 port 로 트래픽의 제어가 가능 했으나,<br/>
-							현재의 어플리케이션은 IP, Port 만 열려 있으면 통과하는 성질이 있으므로<br/>
-							IP, Port 개폐 형식으로는 트래픽을 전혀 제어할 수가 없습니다.<br/> 
-							그런데 실제 사이버 공격은 어플리케이션(L7)으로 이루어 지므로 L3방화벽<br/>
-							으로는 무방비가 됩니다.<br/>
-							AI 머신러닝을 이용해 어플리케이션을 식별하여 트래픽에 대한 가시성을<br/>
-							확보할 수 있어야 트래픽에 대한 사용 현황 분석과 정밀한 보안 정책 수립이<br/> 
-							가능합니다.<br/></p>
+							<p><span></span>방화벽은 IP, Port 가 아닌 어플리케이션 자체를 인지하고 제어해야 합니다.
+							예를 들어 90 년대에는 상호규약에 따라 port 로 트래픽의 제어가 가능 했으나,
+							현재의 어플리케이션은 IP, Port 만 열려 있으면 통과하는 성질이 있으므로
+							IP, Port 개폐 형식으로는 트래픽을 전혀 제어할 수가 없습니다.
+							그런데 실제 사이버 공격은 어플리케이션(L7)으로 이루어 지므로 L3방화벽
+							으로는 무방비가 됩니다.
+							AI 머신러닝을 이용해 어플리케이션을 식별하여 트래픽에 대한 가시성을
+							확보할 수 있어야 트래픽에 대한 사용 현황 분석과 정밀한 보안 정책 수립이
+							가능합니다.</p>
 							</div>
 						</div>
 					</section>
@@ -198,27 +203,31 @@
 					<table class="NGFW_table_wrap" border="1" width="100%>
 							<tr class="NGFW_table NGFW_table1">
 								<td></td>
-								<td><p>PA-3260</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td>
+								<td><p>PA-3260</p><img src="<c:url value='/resources/new_img/pa3260.png'/>" alt=""/></td>
 								<%-- <td><p>PA-3250</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td> --%>
 								<td><p>PA-3220</p><img src="<c:url value='/resources/new_img/NGFW12.jpg'/>" alt=""/></td>
+								<td><p>PA-850</p><img src="<c:url value='/resources/new_img/NGFW13.jpg'/>" alt=""/></td>
 							</tr>
 							<tr class="NGFW_table">
-								<td>NGFW Throughput</td>
-								<td>10Gbps</td>
+								<td>식별번호</td>
+								<td>24255745</td>
 								<%-- <td>6.6Gbps</td> --%>
-								<td>5Gbps</td>
+								<td>23641648</td>
+								<td>24040686</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>TP Throughput</td>
-								<td>4.4Gbps</td>
+								<td>4.3Gbps</td>
 								<%-- <td>3Gbps</td> --%>
-								<td>2.4Gbps</td>
+								<td>2.3Gbps</td>
+								<td>1.0Gbps</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>Maximum sessions</td>
-								<td>3,000,000</td>
+								<td>2,200,000</td>
 								<%-- <td>2,000,000</td> --%>
 								<td>1,000,000</td>
+								<td>192,000</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>Interfaces</td>
@@ -233,57 +242,60 @@
 								1G/10G SFP/SFP+ x 4<br/>
 								1G SFP x 4
 								</td>
+								<td>10/100/1000 Cu x 4<br/>
+								1G/10G SFP/SFP+ x 4<br/>
+								1G SFP x 4
+								</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>Redundant Power</td>
 								<td>O</td>
 								<%-- <td>O</td> --%>
 								<td>O</td>
+								<td>X</td>
 							</tr>
 						</table>
 
 						<table class="NGFW_table_wrap" border="1" width="100%>
 							<tr class="NGFW_table NGFW_table1">
 								<td></td>
-								<td><p>PA-850</p><img src="<c:url value='/resources/new_img/NGFW13.jpg'/>" alt=""/></td>
 								<td><p>PA-820</p><img src="<c:url value='/resources/new_img/NGFW13.jpg'/>" alt=""/></td>
-								<td><p>PA-220</p><img src="<c:url value='/resources/new_img/NGFW14.png'/>" alt=""/></td>
+								<td><p>PA-450</p><img src="<c:url value='/resources/new_img/pa440.png'/>" alt=""/></td>
+								<td><p>PA-440</p><img src="<c:url value='/resources/new_img/pa440.png'/>" alt=""/></td>
 							</tr>
 							<tr class="NGFW_table">
-								<td>NGFW Throughput</td>
-								<td>20Gbps</td>
-								<td>1.6Gbps</td>
-								<td>580Mbps</td>
+								<td>식별번호</td>
+								<td>24262697</td>
+								<td>24583753</td>
+								<td>24583752</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>TP Throughput</td>
-								<td>1Gbps</td>
-								<td>800Mbps</td>
-								<td>280Mbps</td>
+								<td>1.0Gbps</td>
+								<td>1.6Gbps</td>
+								<td>1.0Gbps</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>Maximum sessions</td>
 								<td>192,000</td>
-								<td>128,000</td>
-								<td>64,000</td>
+								<td>300,000</td>
+								<td>200,000</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>Interfaces</td>
 								<td>10/100/1000 Cu x 4<br/>
-								10G SFP+ x 4<br/>
-								1G SFP x 4
+								SFP x 8
 								</td>
-								<td>10/100/1000 Cu x 4<br/>
-								1G SFP x 8
+								<td>10/100/1000 Cu x 8
 								</td>
 								<td>10/100/1000 Cu x 8
 								</td>
 							</tr>
 							<tr class="NGFW_table">
 								<td>Redundant Power</td>
+								<td>X</td>
 								<td>O</td>
-								<td>X</td>
-								<td>X</td>
+								<td>O</td>
 							</tr>
 						</table>
 					<!--20210928에 업로드 한 거 끝-->

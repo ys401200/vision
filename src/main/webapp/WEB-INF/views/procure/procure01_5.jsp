@@ -21,34 +21,26 @@
             <li class="depth_sub">
                 <a href="javascript:void('0')">조달제품</a>
                 <ul>
-                    <li><a href="<c:url value='/company/company01'/>">회사소개</a></li>
-                    <li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-                    <li><a href="<c:url value='/procure/procure01'/>">조달제품</a></li>
-                    <li><a href="<c:url value='/security/security01'/>">보안SI</a></li>
-                    <li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a></li>
-                    <li><a href="<c:url value='/news/notice_list'/>">NEWS</a></li>
-                </ul>
+					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
+					<li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
+					<li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
+				</ul>
             </li>
             <li class="depth_sub"><a href="javascript:void('0')">모니터랩</a>
                 <ul>
-                    <li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure02'/>">팔로알토네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure05'/>">아리스타네트웍스</a></li>
+                    <li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure03'/>">넷코아테크</a></li>
                     <li><a href="<c:url value='/procure/procure04'/>">맨텍</a></li>
-                    <!--<li><a href="<c:url value='/procure/procure05'/>">LG히다찌</a></li>-->
                     <li><a href="<c:url value='/procure/procure06'/>">올리브텍</a></li>
                     <li><a href="<c:url value='/procure/procure07'/>">인젠트</a></li>
-                    <!--<li><a href="<c:url value='/procure/procure08'/>">BeyondTrust</a></li>-->
                 </ul>
             </li>
             <li class="depth_sub2"><a href="javascript:void('0')">유해사이트차단</a>
                 <ul>
                     <li><a href="<c:url value='/procure/procure01'/>">웹방화벽</a></li>
-                    <!--<li><a href="<c:url value='/procure/procure01_2'/>">DB방화벽</a></li>-->
-                    <!--<li><a href="<c:url value='/procure/procure01_3'/>">APT대응솔루션</a></li>-->
-                    <!--<li><a href="<c:url value='/procure/procure01_4'/>">VoIP방화벽</a></li>-->
                     <li><a href="<c:url value='/procure/procure01_5'/>">유해사이트차단</a></li>
                     <li><a href="<c:url value='/procure/procure01_6'/>">SSL 가시성 솔루션</a></li>
                 </ul>

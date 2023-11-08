@@ -22,13 +22,9 @@
 				<a href="javascript:void('0')">회사소개</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution03_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure02'/>">조달제품</a>
+					<li><a href="https://blog.naver.com/visiontek1" target="_blank">소식</a>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">오시는길</a>
@@ -93,7 +89,7 @@
                             <p class="title">서울</p>
                             <ul class="map_info">
                                <li>
-                                   서울시 금천구 가산동 60-48번지 삼성IT해링턴타워 915호<br/>
+                                   서울특별시 금천구 디지털로9길 41, 삼성IT해링턴타워 915호<br/>
                            <span><strong>Tel.</strong> 070-8260-5601</span>
                                 </li>
                             </ul>
@@ -103,7 +99,7 @@
                             <p class="title">부산</p>
                             <ul class="map_info">
                                <li>
-                                   부산시 해운대구 센텀중앙로97 센텀스카이비즈 A동 2509호<br/>
+                                   부산광역시 해운대구 센텀중앙로97, 센텀스카이비즈 A동 2509호<br/>
                                     <span><strong>Tel.</strong> 070-8260-3882</span> <span><strong>Fax.</strong> 051-955-3723</span>
                                 </li>
                             </ul>

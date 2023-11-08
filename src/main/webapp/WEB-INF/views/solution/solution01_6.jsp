@@ -3,8 +3,8 @@
 <!--서브 비주얼이미지 S-->
 <section id="sub_visual">
 	<div class="sub_visual_txt">
-		<%-- <span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span> --%>
-		<h2>SECURITY</h2>
+		<span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
+		<h2>Solution</h2>
 	</div>
 	<div class="viimg svis02 visualZoom">
 	</div>
@@ -18,36 +18,30 @@
 		<ul class="depth">
 			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
 			<li class="depth_sub">
-				<a href="javascript:void('0')">SECURITY</a>
+				<a href="javascript:void('0')">사업영역</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-                    <li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution03_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure02'/>" target="_blank">조달제품</a>
+					<li><a href="https://blog.naver.com/visiontek1" target="_blank">소식</a>
 				</ul>
 			</li>
-			<li class="depth_sub"><a href="javascript:void('0')">SECURITY</a>
+			<li class="depth_sub"><a href="javascript:void('0')">solution</a>
 				<ul>
-					<li><a href="<c:url value='/solution/solution01'/>">SECURITY</a></li>
-					<li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
-					<li><a href="<c:url value='/solution/solution03'/>">Database</a></li>
-					<!-- <li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
-					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li> -->
+					<li><a href="<c:url value='/solution/solution03_2'/>">지능형 IoT</a></li>
+                    <li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
+					<li><a href="<c:url value='/solution/solution01_2'/>">solution</a></li>
+					<li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
 				</ul>
 			</li>
-			<li class="depth_sub2"><a href="javascript:void('0')">PC개인정보보호</a>
+			<li class="depth_sub2"><a href="javascript:void('0')">PC 개인정보보호</a>
 				<ul>
-                    <li><a href="<c:url value='/solution/solution01_2'/>">AI방화벽</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution01'/>">차세대방화벽</a></li> --%>
+					<li><a href="<c:url value='/solution/solution01_2'/>">AI방화벽</a></li>
 					<li><a href="<c:url value='/solution/solution01_3'/>">트래픽분석관리시스템</a></li>
 					<li><a href="<c:url value='/solution/solution01_4'/>">유해사이트차단</a></li>
 					<li><a href="<c:url value='/solution/solution01_5'/>">웹방화벽</a></li>
-                    <li><a href="<c:url value='/solution/solution04_2'/>">SSL 가시성 솔루션</a></li>
-					<li><a href="<c:url value='/solution/solution01_6'/>">PC개인정보보호</a></li>
+					<li><a href="<c:url value='/solution/solution04_2'/>">SSL 가시성 솔루션</a></li>
+					<li><a href="<c:url value='/solution/solution01_6'/>">PC 개인정보보호</a></li>
 					<li><a href="<c:url value='/solution/solution01_7'/>">Smart NAC</a></li>
 					<li><a href="<c:url value='/solution/solution02_3'/>">보안 V-WORM 스토리지</a></li>
 				</ul>
@@ -57,28 +51,27 @@
 	<!--//페이지경로-->
 
 	<div id="sub_middle">
-		<h3 class="ctle">PC개인정보보호</h3>
 		
 		<!--컨텐츠 S-->
 		<div class="contents">
 			<!--유해사이트차단 S-->
 			<div class="solution_hd sol01">
 				<div class="inner">
-					<h3 class="hd_tit">PCFILTER</h3>
+					<h3 class="hd_tit">PC FILTER</h3>
 					<p class="mtxt"><span class="txt_str">내 PC안의 개인정보 지킴이</span></p>
 					<%-- <p class="center">APPLICATION INSIGHT SWG는 비즈니스 요구사항에 필요한 유연성을 제공하며, APT공격 등 다양하고 진화하는 웹 공격 위협으로부터 기업 내부 웹사용자를 보호하고 기업 내부 사용자의 안전한 웹 사용환경을 보장하는 전용 어플라이언스 기반의 보안 웹 게이트웨이입니다</p> --%>
 				</div>	
 			</div>
 			<div class="inner">
 				<div class="solution01">
-					<h3 class="cnt_tit">PC 민감·개인정보유출방지(DLP) 및 취약점 점검 솔루션 </h3>
+					<h3 class="cnt_tit">PC 민감/개인정보유출방지(DLP) 및 취약점 점검 솔루션 </h3>
 					<div class="con_wr">
-                        <p>피씨필터는 PC 내 민감·개인정보 포함 문서 및 이미지 파일을 검사하고 암호화 등의 기술적 보호 조치가 가능합니다.<br/> 
+                        <p>PC FILTER는 PC내 민감/개인정보 포함 문서 및 이미지 파일을 검사하고 암호화 등의 기술적 보호 조치가 가능합니다.<br/> 
                             또한 DLP 기능을 탑재하여 정보의 외부 유출을 차단하고 PC의 보안 취약점을 진단, 조치할 수 있는 솔루션입니다.                            
                         </p>
 					</div>
 
-                    <h3 class="cnt_tit">PC개인정보보호 필요성</h3>
+                    <h3 class="cnt_tit">PC 개인정보보호 필요성</h3>
 					<div class="pcfilter_wr">
                         <div class="pcfilter_con3_wrap">
                             <img class="pcfilter_con3_img1" src="../../../resources/new_img/pcfilter16.jpg" alt=""/>
@@ -86,10 +79,10 @@
                                 <img class="pcfilter_con3_img2" src="../../../resources/new_img/pcfilter1.png" alt=""/>
                                 <p class="pcfilter_con3_tit">개인</p>
                                 <p class="pcfilter_con3_text">
-                                    • 민감·개인정보 유출에 따른 명의 도용 등에 따른 금전적인 피해 발생
+                                    • 민감/개인정보 유출에 따른 명의 도용 등에 따른 금전적인 피해 발생
                                 </p>
                                 <p class="pcfilter_con3_text">
-                                    • 민감·개인정보의 외부 공개에 따른 정신적인 피해 발생
+                                    • 민감/개인정보의 외부 공개에 따른 정신적인 피해 발생
                                 </p>
                                 <p class="pcfilter_con3_text">
                                     • 유괴, 납치, 상해 등의 신체적인 피해 위험성 노출
@@ -102,7 +95,7 @@
                                 <img class="pcfilter_con3_img2" src="../../../resources/new_img/pcfilter2.png" alt=""/>
                                 <p class="pcfilter_con3_tit">기업</p>
                                 <p class="pcfilter_con3_text">
-                                    • 민감·개인정보 유출에 따른 기업 이미지 실추 등의 문제 발생
+                                    • 민감/개인정보 유출에 따른 기업 이미지 실추 등의 문제 발생
                                 </p>
                                 <p class="pcfilter_con3_text">
                                     • 법적 조치에 따른 물질적 피해 발생
@@ -118,7 +111,7 @@
                                 <img class="pcfilter_con3_img2" src="../../../resources/new_img/pcfilter3.png" alt=""/>
                                 <p class="pcfilter_con3_tit">정부</p>
                                 <p class="pcfilter_con3_text">• 특성상 개인, 기업의 개인정보 유출보다 더욱 큰 비난 가능성을 내포하고 있음</p>
-                                <p class="pcfilter_con3_text">• 민감·개인정보 유출에 따른 국민 불안감 증폭 및 신뢰도 감소</p>
+                                <p class="pcfilter_con3_text">• 민감/개인정보 유출에 따른 국민 불안감 증폭 및 신뢰도 감소</p>
                             </div>
                         </div>
 					</div>
@@ -129,7 +122,7 @@
                             <div class="pcfilter_con2_img_wrap">
                                 <img src="../../../resources/new_img/pcfilter4.png" alt=""/>
                             </div>
-                            <div class="pcfilter_con2_text">민감 · 개인정보  검사</div>
+                            <div class="pcfilter_con2_text">민감/개인정보  검사</div>
                         </div>
                         <div class="pcfilter_con2_wrap">
                             <div class="pcfilter_con2_img_wrap">
@@ -177,7 +170,7 @@
                                 <div class="pcfilter_con2_img_wrap">
                                     <img src="../../../resources/new_img/pcfilter4.png" alt=""/>
                                 </div>
-                                <div class="pcfilter_con2_text">민감 · 개인정보  검사</div>
+                                <div class="pcfilter_con2_text">민감/개인정보  검사</div>
                             </div>
                             <div class="pcfilter_con2_wrap">
                                 <div class="pcfilter_con2_img_wrap">
@@ -250,7 +243,7 @@
 					<h3 class="cnt_tit">PC 민감 · 개인정보 보호 프로세스</h3>
 					<div class="con_wr pcfilter_wr">
                         <img class="pcfilter_con4_img1" src="../../../resources/new_img/pcfilter28.jpg" alt=""/>
-                        <p class="pcfilter_con4_text">“ PCFILTER는 다양한 형태의 데이터를 보호 및 모니터링하여 민감·개인정보 노출 위험을 사전에 예방합니다.”</p>
+                        <p class="pcfilter_con4_text">“ PC FILTER는 다양한 형태의 데이터를 보호 및 모니터링하여 민감·개인정보 노출 위험을 사전에 예방합니다.”</p>
 					</div>
 
                     <h3 class="cnt_tit">제품 구성</h3>
@@ -259,17 +252,17 @@
 					</div>
                     <div class="con_wr pcfilter_wr">
                         <div class="pcfilter_con2_wrap2 m_filter_con2_wrap2">
-                            <p class="pcfilter_con2_box1 pcfilter_con5_box1">1. PCFILTER 클라우드형 (임대형)</p>
+                            <p class="pcfilter_con2_box1 pcfilter_con5_box1">1. PC FILTER 클라우드형 (임대형)</p>
                             <div class="pcfilter_con2_box2 pcfilter_con5_box2">개인 및 소규모 그룹 개인정보보호 체계 구축</div>
                             <div class="pcfilter_con2_box2">강화된 개인정보보호 법률에 의거 소상공인 및 소규모 그룹에 적용, 개인정보보호의 체계를 구축, 각종 위반사항 및 유출사고를 미연에 방지 할 수 있습니다</div>
                         </div>
                         <div class="pcfilter_con2_wrap2 m_filter_con2_wrap2">
-                            <p class="pcfilter_con2_box1 pcfilter_con5_box1">2. PCFILTER USB형 (보안감사 용도)</p>
+                            <p class="pcfilter_con2_box1 pcfilter_con5_box1">2. PC FILTER USB형 (보안감사 용도)</p>
                             <div class="pcfilter_con2_box2 pcfilter_con5_box2">개인 및 소규모 그룹 개인정보보호 체계 구축</div>
                             <div class="pcfilter_con2_box2">네트워크상에 연결되어 있지 않은 공용 PC, 불특정 PC를 대상으로 한 개인정보 현황 및 보안 감사 대비에 효과적이며, 그룹별 관리 체계 구축에 적합한 구성 방안입니다</div>
                         </div>
                         <div class="pcfilter_con2_wrap2 m_filter_con2_wrap2">
-                            <p class="pcfilter_con2_box1 pcfilter_con5_box1">3. PCFILTER 구축형</p>
+                            <p class="pcfilter_con2_box1 pcfilter_con5_box1">3. PC FILTER 구축형</p>
                             <div class="pcfilter_con2_box2 pcfilter_con5_box2">개인 및 소규모 그룹 개인정보보호 체계 구축</div>
                             <div class="pcfilter_con2_box2">관리시스템을 통한 중앙 관리(각종 보고 및 실시간 관리, 중앙 검색)를 통하여 도입 후 체계적인 개인정보보호 체계를 구축하고 각종 사고에 대한 방지, 감사, 교육의 효과를 기대할 수 있습니다</div>
                         </div>
@@ -277,7 +270,7 @@
 
                     <h3 class="cnt_tit">개인정보보호</h3>
                     <div class="pcfilter_wr">
-                        <p class="pcfilter_con6_title">PCFILTER V3.0의 기능 및 특징을 소개합니다.</p>
+                        <p class="pcfilter_con6_title">PC FILTER V3.0의 기능 및 특징을 소개합니다.</p>
                         <div class="pcfilter_con6_wrap m_filter_con2_wrap2">
                                 <div class="pcfilter_con6_tit">검사 기능</div>
                                 <div class="pcfilter_con6_text">- 파일 내 개인정보(주민등록번호, 여권번호 등) 검사 기능 제공</div>
@@ -313,7 +306,7 @@
                     <div class="pcfilter_wr">
                         <div class="pcfilter_con6_wrap m_filter_con2_wrap2">
                             <div class="pcfilter_con6_tit">보호기능</div>
-                                <div class="pcfilter_con6_text">- 개인정보 파일 암/복호화 기능 제공
+                                <div class="pcfilter_con6_text">- 개인정보 파일 암 / 복호화 기능 제공
                                 </div>
                                 <div class="pcfilter_con6_text">- 실시간 검사 후 자동 암호화 기능 제공
                                 </div>
@@ -409,7 +402,7 @@
                                     <div class="pcfilter_con6_text">- CD/DVD를 통한 개인정보 파일 유출 차단(읽기전용) 기능 제공 
                                     </div>
                                     <div class="pcfilter_con6_text">- 휴대용장치/무선랜/블루투스/적외선포트/PCMCIA/USB테더링/
-                                        1394포트/ 모뎀/이미지캡쳐장치/Serial/Parallel포트를 통한
+                                        1394포트/모뎀/이미지캡쳐장치/Serial/Parallel포트를 통한
                                         개인정보 파일 유출 차단 기능 제공  
                                     </div>
                                     <div class="pcfilter_con6_text">- 매체 알림 기능 제공 
@@ -651,7 +644,7 @@
                                 </tr>
                                 <tr>
                                     <td>인증제품</td>
-                                    <td>PCFILTER V3.0
+                                    <td>PC FILTER V3.0
                                     </td>
                                 </tr>
                                 <tr>

@@ -1,181 +1,181 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!--서브 비주얼이미지 S-->
+<style>
+.biz_secWrap>div{margin-bottom:100px; overflow:hidden;}
+@media (max-width:1350px) and (min-width:1025px) {
+        .contents .inner {width:95%;}
+	.biz_sol4_boxWrap {width:70%; margin:0 auto;}
+	.biz_sol4_boxWrap>div {width:180px; height:180px; border:4px solid #5c59a2;}
+	.biz_sol4_boxWrap>div>div:nth-of-type(1) {height:110px;}
+	.biz_sol4_boxWrap>div:nth-of-type(1) img {width:100px;}
+	.biz_sol4_boxWrap>div:nth-of-type(2) img {width:110px;}
+	.biz_sol4_boxWrap>div:nth-of-type(3) img {width:110px;}
+	.biz_sol4_boxWrap img {top:58%;}
+}
+</style>
 <section id="sub_visual">
-	<div class="sub_visual_txt">
-		<span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
-		<h2>솔루션</h2>
-	</div>
-	<div class="viimg svis02 visualZoom">
-	</div>
+        <div class="sub_visual_txt">
+                <span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
+                <h2>PaloLog</h2>
+        </div>
+        <div class="viimg svis02 visualZoom">
+        </div>
 </section>
 <!--//서브 비주얼이미지 E-->
-      
-      <!-- content S -->
+
+<!-- content S -->
 <div id="sub_container">
 	<!--페이지경로-->
 	<div class="path">
-		<ul class="depth">
-			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
-			<li class="depth_sub">
-				<a href="javascript:void('0')">솔루션</a>
-				<ul>
-					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >솔루션</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
-				</ul>
-			</li>
-			<li class="depth_sub"><a href="javascript:void('0')">클라우드</a>
-				<ul>
-					<li><a href="<c:url value='/solution/solution01'/>">네트워크보안</a></li>
-					<li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
-					<li><a href="<c:url value='/solution/solution03'/>">어플리케이션 보안</a></li>
-					<li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
-					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li>
-				</ul>
-			</li>
-			<li class="depth_sub2"><a href="javascript:void('0')">ACCORDION</a>
-				<ul>
-					<li><a href="<c:url value='/solution/solution02'/>">가상데스크톱</a></li>
-					<li><a href="<c:url value='/solution/solution02_2'/>">서버가상화</a></li>
-					<li><a href="<c:url value='/solution/solution02_3'/>">NFV</a></li>
-					<li><a href="<c:url value='/solution/solution02_4'/>">ACCORDION</a></li>
-				</ul>
-			</li>
-		</ul>
+        <ul class="depth">
+                <li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
+                <li class="depth_sub">
+                        <a href="javascript:void('0')">사업영역</a>
+                        <ul>
+                                <li><a href="<c:url value='/company/company01'/>">회사소개</a>
+                                <li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+                                <li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+                                <li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
+                        </ul>
+                </li>
+                <li class="depth_sub"><a href="javascript:void('0')">제품</a>
+                        <ul>
+                                <li><a href="<c:url value='/solution/solution03_2'/>">지능형 IoT</a></li>
+                                <li><a href="<c:url value='/solution/solution01_2'/>">solution</a></li>
+                                <li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
+                                <li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
+                        </ul>
+                </li>
+                <li class="depth_sub2"><a href="javascript:void('0')">PaloLog</a>
+                        <ul>
+                                <li><a href="<c:url value='/solution/solution03'/>">BizCore</a></li>
+                                <li><a href="<c:url value='/solution02_4'/>">PaloLog</a></li>
+                        </ul>
+                </li>
+        </ul>
 	</div>
 	<!--//페이지경로-->
 
-	<div id="sub_middle">
-		<h3 class="ctle">ACCORDION</h3>
-		
-		<!--컨텐츠 S-->
-		<div class="contents">
-			<!--PaaS S-->
-			<div class="solution_hd sol02">
-				<div class="inner">
-					<h3 class="hd_tit">ACCORDION</h3>
-					<p class="mtxt">컨테이너 통합 관리 솔루션 <span class="txt_str">'아코디언'</span></p>
-					<!-- <p class="center">Your next software-defined elastic NFV platform</p> -->
-				</div>	
-			</div>
-			<div class="inner">
+    <div id="sub_middle">
+        <h3 class="ctle">PaloLog</h3>
+
+        <!--컨텐츠 S-->
+        <div class="contents">
+            <!--DB방화벽 S-->
+            <div class="solution_hd sol03">
+                <div class="inner">
+                    <h3 class="hd_tit">PaloLog</h3>
+                    </br>
+                    <p class="center">이기종의 다양한 장비에서 발생되는 다양한 로그(Log)들을 수집, 분석하고
+                    통합 모니터링 및 관리할 수 있는 시스템입니다.</p>
+                </div>
+            </div>
+
+            <div class="inner">
 				<div class="solution01">
-					<h3 class="btit_str">왜 ACCORDION 인가?</h3>
-					<p class="center mb20">'아코디언'은 다양한 인프라가 혼재하는 플랫폼 환경에서 가용성, 민첩성, 확장성, 자동화된 운영관리를 제공하는 컨테이너 통합 관리 솔루션입니다.</p>
-					<div class="con_wr">
-						<p class="center"><img src="<c:url value='/resources/img/solution/solution02_4_gph01.gif'/>" alt=""/></p>	
-					</div>
+					<h3 class="cnt_tit">제품 소개</h3>
 
-					<!-- <h3 class="cnt_tit">PaaSXpert 선택해야 하는 이유</h3>
-					<div class="con_wr">
-						<ul class="adv02">
-							<li>
-								<p><span class="ic_st sol_ic19"></span> </p>
-								<dl>
-									<dt>Click만으로 애플리케이션을 쉽고 빠르게 구성</dt>
-									<dd>
-										- 몇 번의 화면 클릭으로 다양한 개발언어 및 런타임환경을 선택하며나 코드 업로드 만으로 즉시 실행이 가능
-									</dd>
-								</dl>
-							</li>
-							<li>
-								<p><span class="ic_st sol_ic20"></span></p>
-								<dl>
-									<dt>유연하게 구축 및 확장</dt>
-									<dd>
-										- 확장성, 개방성과 호환성 등을 가장 잘 지원할 수 있는 오픈소스에 기반하고 있으며, 다양한 laaS환경에서 구축 가능
-									</dd>
-								</dl>
-							</li>
-							<li>
-								<p><span class="ic_st sol_ic21"></span></p>
-								<dl>
-									<dt>IT비즈니스 패러다임의 혁신</dt>
-									<dd>
-										- 클라우드 플랫폼을 통해 비용절감, 빠른 비즈니스 지원, 사용자 맞춤형 리소스 제공으로 기업의 획기적인 생산성 효과를 제공
-									</dd>
-								</dl>
-							</li>
-						</ul>
-					</div> -->
-
-					<h3 class="cnt_tit">ACCORDION을 선택해야하는 이유 </h3>
-					<div class="con_wr">
-						<p class="mb10">현대화된 웹 인프라는 상시 서비스가 가능하고, 요구사항에 대한 즉각적인 자원 확장 및 회수가 가능한 개방형 시스템을 추구하고 있습니다. '아코디언'은 최근 웹 서비스를 기반으로 한 비즈니스의 중요성이 강조되는 IT흐름에 맞게 컨테이너 화 된 WAS와 사용자 애플리케이션을 쉽고 빠르게 배포하기 위한 관리 환경을 제공해 드립니다. 또한 컨테이너 서비스를 통해 서버 자원의 효율성을 증대시키고 CI/CD와 연계해 개발자의 생산성을 높일 수 있습니다.</p>
-						<h4 class="cnt_tit02">ACCORDION 솔루션</h4> 
-						<div class="table-responsive">
-							<table cellpadding="0" cellspacing="0" border="0" class="tbl">
-								<caption class="blind"></caption>
-								<colgroup>
-									<col width="40%" />
-									<col width="60%" />
-								</colgroup>
-								<tbody>
-									<tr>
-										<td class="tbl_tit02">애플리케이션 배포 관리</td>
-										<td class="lft">번들된 Tomcat과 wildfly를 One-Click 으로 쉽고 빠르게 설치할 수 있습니다. 여러 대의 WAS 서버를 클러스터 구성 하실 때 네트워크 설정, 용량 프로비전, 부하분산을 자동으로 구성할 수 있습니다. 또한 번들된 WAS 이외의 다양한 애플리케이션을 컨테이너화하여 ACCORDION를 통해 서비스 할 수 있습니다.</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02">자동 확장 및 운영</td>
-										<td class="lft">자동 및 수동 확장을 통해 갑자기 폭증하는 사용자 요청을 빠르게 처리할 수 있습니다. 자동화된 컨테이너 복제 및 복구를 통해 중단없는 서비스를 구축할 수 있습니다.</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02">모니터링</td>
-										<td class="lft">시스템(CPU, Memory, Disk, Network) 모니터링과 APM (Application Performance Management), 로그 검색 서비스, 알람 (Email, Slack) 서비스를 통해 사전 대응적 문제해결이 가능하고 안정적인 웹 서비스를 운영할 수 있습니다.</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02">빌드 및 통합관리</td>
-										<td class="lft">개발된 애플리케이션을 CI/CD를 통해 매우 쉽게 빌드/배포를 자동화 할 수 있고, 롤링업그레이를 통해 배포시에도 중단 없는 서비스 제공이 가능합니다. 또한 이전 버전으로의 롤백 필요시 원클릭으로 수초내 롤백이 가능합니다.</td>
-									</tr>
-									<!-- <tr>
-										<td class="tbl_tit02">사용량 기반 과금</td>
-										<td class="lft">플랫폼 사용량에 기반한 과금 기능 제공</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02">SW라이선스 관리</td>
-										<td class="lft">소프트웨어 라이선스 관리 기능 제공</td>
-									</tr> -->
-								</tbody>
-							</table>
+					<section id="s1">
+						<div class="AICon1">
+							<div class="conImgFloat_default c1_img">
+<!--
+                                <img src="http://www.vtek.co.kr/resources/new_img/palolog1.png" width="514px" alt="img"/>
+-->
+                                <img src="<c:url value='/resources/new_img/palolog1.png'/>" width="514px" alt="img"/>
+							</div>
+							<div class="c1_text conTextFloat_default">
+								<p><span></span>정형/반정형 또는 비정형 로그들에 대한 실시간 수집 및 신속한 검색 기능을 제공하며,
+                                이러한 정보들을 다양한 차트와 대시보드를 통해 직관적으로 가시화합니다.
+                                또한, 로그 이벤트 발생 시 즉각적인 알람을 통하여, 빠른 문제해결과 높은 가용성을 확보하도록 지원합니다.
+								</p>
+							</div>
 						</div>
-					</div>
+					</section>
 
-					<!-- <h3 class="cnt_tit">PaaSXpert 기대효과</h3>
-					<div class="con_wr">
-						<div class="con_wr_2dth">
-							<ul class="con_list">
-								<li>IT인프라가 아닌 비지니스에 집중:HW 및 SW설치·구성의 번거로움에서 벗어나 본연의 비지니스 개발에 집중</li>
-								<li>애플리케이션의 신속한 개발:몇달씩 걸리던 애플리케이션 개발을 며칠에서 몇시간을 단축 </li>
-								<li>프로페셔널 기술지원:국내에서 Open PaaS를 가장 잘 알고 있는 전문가들의 기술지원</li>
-								<li>애플리케이션의 고가용성 보장:고가용성을 위한 아키텍처 설계 및 별도의 솔루션없이 비즈니스 연속성</li>
-							</ul>
+					<h3 class="cnt_tit">제품 구성도</h3>
+
+					<section id="s2">
+						<div class="AICon2">
+							<div class="conImg_default c2_img">
+<!--
+                                <img src="http://www.vtek.co.kr/resources/new_img/palolog2.png" width="868px" alt="img"/>
+-->
+								<img src="<c:url value='/resources/new_img/palolog2.png'/>" width="868px" alt="img"/>
+							</div>
+							<div class="conText_default">
+								<p>PaloLog는 시스템, 데이터베이스, 네트워크, 보안, 운영/업무 등 분산된 다양한 로그들을
+                                단일 시스템을 통해 통합적으로 수집하며, 실시간적인 분석과 검색을 통하여 관리대상의 장애를
+                                실시간으로 인지하고 유의미한 정보를 얻을 수 있도록 지원합니다.</p>
+							</div>
 						</div>
-					</div> -->
+					</section>
 
-					<h3 class="cnt_tit">Architecture</h3>
-					<div class="con_wr">
-						<div class="box_wr">
-							<img src="<c:url value='/resources/img/solution/solution02_4_gph02.gif'/>" alt=""/>
-						</div>	
-					</div>
+					<h3 class="cnt_tit">주요 기능</h3>
 
-					<!-- <h3 class="cnt_tit">Advantages</h3>
-					<div class="con_wr">
-						<div class="box_wr">
-							<img src="<c:url value='/resources/img/solution/solution02_4_gph03.gif'/>" alt=""/>
-						</div>	
-					</div> -->
+					<section id="s3">
+						<div class="AICon3">
+							<div class="conImg_default c2_img">
+<!--
+                                <img src="http://www.vtek.co.kr/resources/new_img/palolog3.png" width="868px" alt="img"/>
+-->
+                                <img src="<c:url value='/resources/new_img/palolog3.png'/>" width="868px" alt="img"/>
+							</div>
+							<div class="conText_default">
+								<div class="iot_sol1_ConWrap3">
+									<div>
+										<div><div>1.</div>로그 수집 및 분석</div>
+									</div>
 					
+									<div>
+										<div><div>2.</div>이벤트 감지 및 통보</div>
+									</div>
+					
+									<div>
+										<div><div>3.</div>Dashboard 및 시각화 기능</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<h3 class="cnt_tit">활용 예시</h3>
+					<section id="s4">
+						<div class="AICon4">
+							<div class="conImg_default c4_img">
+<!--
+                                <img src="http://www.vtek.co.kr/resources/new_img/iot5.png" width="868px" alt="img"/>
+-->
+							</div>
+                            
+							<div class="iot_sol1_ConWrap3">
+								<div>
+									<div><div>1.</div>인프라 관리</div>
+                                    <div>서버, 네트워크, DBMS 등의 로그에 대한 실시간 분석 및 즉각적 장애 탐지를 통한 인프라 가용성 유지</div>
+                                </div>
+                
+                                <div>
+                                    <div><div>2.</div>보안 사고 대응</div>
+                                    <div>사용자 부주의, 외부 침해, 내부 기밀 정보 유출 등의 행위에 대한 로그 실시간 감지를 통한 보안 강화</div>
+                                </div>
+                
+                                <div>
+                                    <div><div>3.</div>컴플라이언스 준수</div>
+                                    <div>각종 법률, 규정, 지침 등에 대한 감사를 위해 근거가 될 수 있는 분석 로그 저장/보관 및 분석</div>
+                                </div>
+                            </div>
+						</div>
+					</section>
+
 				</div>
-			</div>
-			<!--//PaaS E-->
-		</div>
-		<!--//컨텐츠 E-->
+		        <!-- solution01 E-->
+            </div>
+	        <!-- inner E-->
+        </div>
+        <!-- 컨텐츠 E-->
 	</div>
+    <!-- sub_middle E-->
 	
-      </div>
+</div>
 <!-- //content E -->
+      

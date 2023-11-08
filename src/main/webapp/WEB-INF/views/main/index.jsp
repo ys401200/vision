@@ -73,13 +73,20 @@
 	</script>
 		
 		<!-- 메인 비주얼 S -->
-		            <%-- <video autoplay muted loop>
-    					<source src="../../../resources/new_img/main/Adobe.mov" >
-					</video> --%>
 		<section id="mainVisual">
 			<div class="visual-img">
+			<div class="visual-item">
+					<img src="<c:url value='/resources/new_img/main/main_visual07.png'/>" alt="" />
+					<div class="visual-txt">
+						<div class="visual-inner-txt">
+							<h2>NETWORK</h2>
+							<strong>최고의 네트워크 시스템 구축</strong>
+							<p>풍부한 경험과 최고의 기술력을 바탕으로 안전한 네트워크 시스템을 구축합니다.</p>
+						</div>
+					</div>
+				</div>
 				<div class="visual-item">
-					<img src="<c:url value='/resources/img/main/main_visual02.jpg'/>" alt="" />
+					<img src="<c:url value='/resources/new_img/main/main_visual02.jpg'/>" alt="" />
 					<div class="visual-txt">
 						<div class="visual-inner-txt">
 							<h2>보안</h2>
@@ -87,25 +94,26 @@
 							<p>풍부한 경험과 최고의 기술력을 바탕으로 안전한 보안시스템을 구축합니다.</p>
 						</div>
 					</div>
-				</div>		
-				<div class="visual-item">
-					<img src="<c:url value='/resources/img/main/main_visual03.jpg'/>" alt="" />
-					<div class="visual-txt">
-						<div class="visual-inner-txt">
-							<h2>DataBase</h2>
-							<strong>전사 데이터 관리 효율 극대화</strong>
-							<p>세계적인 오픈소스 데이터베이스를 이용한 DBMS로 전사 데이터베이스를
-								효율적으로 관리, 이용할 수 있게 컨설팅을 제공합니다.</p>
-						</div>
-					</div>
 				</div>
 				<div class="visual-item">
-					<img src="<c:url value='/resources/img/main/main_visual01.jpg'/>" alt="" />
+					<img src="<c:url value='/resources/new_img/main/main_visual03.jpg'/>" alt="" />
 					<div class="visual-txt">
 						<div class="visual-inner-txt">
 							<h2>클라우드</h2>
 							<strong>IT인프라 효율 극대화</strong>
 							<p>시스템 자원 및 관리 효율 향상, 보안 강화, 유연한 업무 환경, 에너지 효율 향상을 경험할 수 있도록 최적의 환경을 제공합니다.</p>
+						</div>
+					</div>
+				</div>
+				<div class="visual-item">
+					<img src="<c:url value='/resources/new_img/main/main_visual01.jpg'/>" alt="" />
+					<div class="visual-txt">
+						<div class="visual-inner-txt">
+							<h2>지능형 IoT</h2>
+							<strong>감시체계 효율 극대화</strong>
+							<p>신속한 상황전파, 지능형 감시체계, 높은 비용대비 효과로 
+								24시간 안전한 건물이 되도록 지능형 감시기능을 제공합니다.
+								</p>
 						</div>
 					</div>
 				</div>	
@@ -118,41 +126,43 @@
 		<!-- //메인 비주얼 E -->
         
 		<section id="sec2">
-            <img class="s2-bg1" src="../../../resources/new_img/main/main-bg.png" alt=""/>
-            <img class="s2-bg2" src="../../../resources/new_img/main/main-bg2.png" alt=""/>
-
-            <div id="s2-wrap">
-                <div class="s2-title">솔루션</div>
-                <div class="s2-title2">더 빠르고 안정적이며 안정한 서비스로 고객의 비즈니스 가치를 극대화시킵니다.</div>
-                <div class="s2-in-con">
-                    <a href="<c:url value='/solution/solution02'/>">
-                    <img class="s2-img" src="../../../resources/new_img/main/s2con2.jpg" alt=""/>
-                    <div class="bottom-black"></div>
-                    <P class="s2-p2"><span>01</span>클라우드</P>
-                    <div class="s2-bottom-line"></div>
-                    </a>
-                </div>
-                <div class="s2-in-con">
-                    <a href="<c:url value='/solution/solution01_2'/>">
-                    <img class="s2-img" src="../../../resources/new_img/main/s2con3.jpg" alt=""/>
-                    <div class="bottom-black"></div>
-                    <P class="s2-p2"><span>02</span>보안</P>
-                    <div class="s2-bottom-line"></div>
-                    </a>
-                </div>
-                <div class="s2-in-con">
-                    <a href="<c:url value='/solution/solution03'/>">
-                    <img class="s2-img" src="../../../resources/new_img/main/s2con4.jpg" alt=""/>
-                    <div class="bottom-black"></div>
-                    <P class="s2-p2"><span>03</span>DBMS</P>
-                    <div class="s2-bottom-line"></div>
-                    </a>
-                </div>
+			<div id="s2-Bigwrap">
+				<img class="s2-bg1" src="../../../resources/new_img/main/main-bg.png" alt=""/>
+				<div id="s2-wrap">
+					<div class="s2-title">솔루션</div>
+					<div class="s2-title2">더 빠르고 안정적이며 안정한 서비스로 고객의 비즈니스 가치를 극대화시킵니다.</div>
+					<div class="s2-in-con">
+						<a href="<c:url value='/solution/solution04_4'/>">
+						<img class="s2-img" src="../../../resources/new_img/main/s2con4.jpg" alt=""/>
+						<div class="bottom-black"></div>
+						<P class="s2-p2"><span>01</span>NETWORK</P>
+						<div class="s2-bottom-line"></div>
+						</a>
+					</div>
+					<div class="s2-in-con">
+						<a href="<c:url value='/solution/solution01_2'/>">
+						<img class="s2-img" src="../../../resources/new_img/main/s2con3.jpg" alt=""/>
+						<div class="bottom-black"></div>
+						<P class="s2-p2"><span>02</span>보안</P>
+						<div class="s2-bottom-line"></div>
+						</a>
+					</div>
+					<div class="s2-in-con">
+						<a href="<c:url value='/solution/solution02'/>">
+						<img class="s2-img" src="../../../resources/new_img/main/s2con2.jpg" alt=""/>
+						<div class="bottom-black"></div>
+						<P class="s2-p2"><span>03</span>클라우드</P>
+						<div class="s2-bottom-line"></div>
+						</a>
+					</div>
+					
+				</div>
+					<img class="s2-bg2" src="../../../resources/new_img/main/main-bg2.png" alt=""/>
             </div>
         </section> 
 
 		<!-- 보안SI -->
-        <section id="sec3">
+        <!-- <section id="sec3">
             <div id="s3-img-wrap">
                 <img id="s3-img" src="../../../resources/new_img/main/main_si.jpeg" alt=""/>
             </div>
@@ -161,7 +171,7 @@
                 <p>비전테크는 다양한 IT 보안 사업 경험을 통해 축적된 노하우를 바탕으로<br/>정보보호 전문가에 의한 보안 SI 서비스를 제공하고 있습니다.</p>
                 <div id="s3-border"></div>
             </div>
-        </section>
+        </section> --!>
 
         <!--비전테크가 필요한 이유-->
         <section id="sec4">
@@ -206,25 +216,155 @@
 				<div class="main_procure_tit">조달제품</div>
 
 				<div class="con1 procure_conbox">
-					<div class="main_procure_wrap">
+
+					<div class="main_procure_wrap"><!--1-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure05'/>">
+									<img src="<c:url value='/resources/new_img/7050CX32S.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>아리스타네트웍스</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">7050CX-32S</P>
+								<p class="main_pr_in_text2">48,918,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure05'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--2-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure05'/>">
+									<img src="<c:url value='/resources/new_img/7050SX348YC8.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>아리스타네트웍스</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">7050SX3-48YC8</P>
+								<p class="main_pr_in_text2">37,665,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure05'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--3-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure05'/>">
+									<img src="<c:url value='/resources/new_img/7050SX348C8.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>아리스타네트웍스</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">7050SX3-48C8</P>
+								<p class="main_pr_in_text2">30,969,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure05'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--4-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure05'/>">
+									<img src="<c:url value='/resources/new_img/7020SR24C2.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>아리스타네트웍스</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">7020SR-24C2</P>
+								<p class="main_pr_in_text2">21,762,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure05'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--5-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure05'/>">
+									<img src="<c:url value='/resources/new_img/720XP-48Y6.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>아리스타네트웍스</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">720XP-48Y6</P>
+								<p class="main_pr_in_text2">16,740,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure05'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--6-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure05'/>">
+									<img src="<c:url value='/resources/new_img/720XP24Y6.jpg'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>아리스타네트웍스</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">720XP-24Y6</P>
+								<p class="main_pr_in_text2">13,206,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure05'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--7-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure02'/>">
-									<img src="<c:url value='/resources/new_img/pa220.png'/>" alt="조달제품"/>
+									<img src="<c:url value='/resources/new_img/pa450.png'/>" alt="조달제품"/>
 								</a>
 							</div>
 							<div class="main_pr_text">
 								<p>팔로알토네트웍스</p>
 							</div>
 							<div class="main_pr_text2">
-								<p class="main_pr_in_text1">PA-220</P>
-								<p class="main_pr_in_text2">4,000,000원</P>
+								<p class="main_pr_in_text1">PA-440</P>
+								<p class="main_pr_in_text2">3,850,000원</P>
 								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure02'/>">자세히보기</a></P>
 							</div>
 						</div>
 					</div>
+					
+					<div class="main_procure_wrap"><!--8-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure02'/>">
+									<img src="<c:url value='/resources/new_img/pa450.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>팔로알토네트웍스</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">PA-450</P>
+								<p class="main_pr_in_text2">10,120,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure02'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+				</div>
 
-					<div class="main_procure_wrap">
+				<div class="con2 procure_conbox">
+
+					<div class="main_procure_wrap"><!--9-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure02'/>">
@@ -242,7 +382,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--10-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure02'/>">
@@ -259,8 +399,12 @@
 							</div>
 						</div>
 					</div>
+<!--
+				</div>
 
-					<div class="main_procure_wrap">
+				<div class="con2 procure_conbox">
+-->
+					<div class="main_procure_wrap"><!--11-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure02'/>">
@@ -278,7 +422,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--12-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure02'/>">
@@ -290,13 +434,13 @@
 							</div>
 							<div class="main_pr_text2">
 								<p class="main_pr_in_text1">PA-3260</P>
-								<p class="main_pr_in_text2">94,000,000원</P>
+								<p class="main_pr_in_text2">91,180,000원</P>
 								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure02'/>">자세히보기</a></P>
 							</div>
 						</div>
 					</div>
 					
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--13-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01'/>">
@@ -314,7 +458,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--14-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01'/>">
@@ -332,7 +476,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--15-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01'/>">
@@ -350,7 +494,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--16-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01'/>">
@@ -367,8 +511,11 @@
 							</div>
 						</div>
 					</div>
+				</div>
 
-					<div class="main_procure_wrap">
+				<div class="con3 procure_conbox">
+
+					<div class="main_procure_wrap"><!--17-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01'/>">
@@ -380,15 +527,13 @@
 							</div>
 							<div class="main_pr_text2">
 								<p class="main_pr_in_text1">AIWAF-4000_Y20</P>
-								<p class="main_pr_in_text2">59,500,000원</P>
+								<p class="main_pr_in_text2">57,715,000원</P>
 								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure01'/>">자세히보기</a></P>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="con2 procure_conbox">
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--18-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01_5'/>">
@@ -406,7 +551,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--19-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01_5'/>">
@@ -424,7 +569,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--20-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01_6'/>">
@@ -441,8 +586,12 @@
 							</div>
 						</div>
 					</div>
+<!--
+				</div>
 
-					<div class="main_procure_wrap">
+				<div class="con3 procure_conbox">
+-->
+					<div class="main_procure_wrap"><!--21-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01_6'/>">
@@ -454,13 +603,13 @@
 							</div>
 							<div class="main_pr_text2">
 								<p class="main_pr_in_text1">AISVA-1000_Y20</P>
-								<p class="main_pr_in_text2">40,590,000원</P>
+								<p class="main_pr_in_text2">38,896,200원</P>
 								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure01_6'/>">자세히보기</a></P>
 							</div>
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--22-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01_6'/>">
@@ -478,7 +627,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--23-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01_5'/>">
@@ -496,7 +645,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--24-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure01_5'/>">
@@ -513,8 +662,11 @@
 							</div>
 						</div>
 					</div>
+				</div>
 
-					<div class="main_procure_wrap">
+				<div class="con4 procure_conbox">
+
+					<div class="main_procure_wrap"><!--25-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure03'/>">
@@ -526,13 +678,13 @@
 							</div>
 							<div class="main_pr_text2">
 								<p class="main_pr_in_text1">NET-Insider v1.1,Q2000</P>
-								<p class="main_pr_in_text2">61,100,000원</P>
+								<p class="main_pr_in_text2">60,100,000원</P>
 								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure03'/>">자세히보기</a></P>
 							</div>
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--26-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img1">
 								<a href="<c:url value='/procure/procure03'/>">
@@ -550,7 +702,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--27-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img2">
 								<a href="<c:url value='/procure/procure04'/>">
@@ -558,7 +710,7 @@
 								</a>
 							</div>
 							<div class="main_pr_text">
-								<p>멘텍</p>
+								<p>맨텍솔루션</p>
 							</div>
 							<div class="main_pr_text2">
 								<p class="main_pr_in_text1">아코디언 v2.0, 1Core</P>
@@ -567,10 +719,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="con3 procure_conbox">
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--28-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img2">
 								<a href="<c:url value='/procure/procure04'/>">
@@ -578,7 +727,7 @@
 								</a>
 							</div>
 							<div class="main_pr_text">
-								<p>멘텍</p>
+								<p>맨텍솔루션</p>
 							</div>
 							<div class="main_pr_text2">
 								<p class="main_pr_in_text1">아코디언 v2.0, 1CPU</P>
@@ -588,7 +737,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--29-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img3">
 								<a href="<c:url value='/procure/procure06'/>">
@@ -606,7 +755,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--30-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img3">
 								<a href="<c:url value='/procure/procure06'/>">
@@ -623,8 +772,12 @@
 							</div>
 						</div>
 					</div>
+<!--
+				</div>	
 
-					<div class="main_procure_wrap">
+                <div class="con4 procure_conbox">
+-->
+					<div class="main_procure_wrap"><!--31-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img3">
 								<a href="<c:url value='/procure/procure07'/>">
@@ -642,7 +795,7 @@
 						</div>
 					</div>
 
-					<div class="main_procure_wrap">
+					<div class="main_procure_wrap"><!--32-->
 						<div class="main_procure">
 							<div class="main_pr_img main_pr_img3">
 								<a href="<c:url value='/procure/procure07'/>">
@@ -660,21 +813,119 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="con5 procure_conbox">
+
+				<div class="main_procure_wrap"><!--33-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure07'/>">
+									<img src="<c:url value='/resources/new_img/pribit.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>프라이빗테크놀로지</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">PRIBIT CONNECT v2.0, 1user, Agent License</P>
+								<p class="main_pr_in_text2">187,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure07'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--34-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure07'/>">
+									<img src="<c:url value='/resources/new_img/pribit.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>프라이빗테크놀로지</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">PRIBIT CONNECT v2.0, 1~100User, 게이트웨이 모듈</P>
+								<p class="main_pr_in_text2">7,700,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure07'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--35-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure07'/>">
+									<img src="<c:url value='/resources/new_img/pribit.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>프라이빗테크놀로지</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">PRIBIT CONNECT v2.0, 101~500User, 게이트웨이 모듈</P>
+								<p class="main_pr_in_text2">13,200,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure07'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--36-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure07'/>">
+									<img src="<c:url value='/resources/new_img/pribit.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>프라이빗테크놀로지</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">PRIBIT CONNECT v2.0, 1~100User, 컨트롤러 모듈</P>
+								<p class="main_pr_in_text2">16,500,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure07'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_procure_wrap"><!--37-->
+						<div class="main_procure">
+							<div class="main_pr_img main_pr_img1">
+								<a href="<c:url value='/procure/procure07'/>">
+									<img src="<c:url value='/resources/new_img/pribit.png'/>" alt="조달제품"/>
+								</a>
+							</div>
+							<div class="main_pr_text">
+								<p>프라이빗테크놀로지</p>
+							</div>
+							<div class="main_pr_text2">
+								<p class="main_pr_in_text1">PRIBIT CONNECT v2.0, 101~500User, 컨트롤러 모듈</P>
+								<p class="main_pr_in_text2">29,700,000원</P>
+								<p class="main_pr_in_text3"><a href="<c:url value='/procure/procure07'/>">자세히보기</a></P>
+							</div>
+						</div>
+					</div>
+				</div>
 				
 				<input type="radio" class="btnradio" name="tabmenu" id="tab01" checked>
 				<input type="radio" class="btnradio" name="tabmenu" id="tab02">
 				<input type="radio" class="btnradio" name="tabmenu" id="tab03">
+				<input type="radio" class="btnradio" name="tabmenu" id="tab04">
+				<input type="radio" class="btnradio" name="tabmenu" id="tab05">
 
 				<div class="btn">
 					<label for="tab01" class="label0 on"></label>
 					<label for="tab02" class="label0"></label>
 					<label for="tab03" class="label0"></label>
+					<label for="tab04" class="label0"></label>
+					<label for="tab05" class="label0"></label>
 				</div>
-				<%-- <div class="main_btn">
+
+				<!-- <div class="main_btn">
 					<div class="main_btn1 on"></div>
 					<div class="main_btn1"></div>
 					<div class="main_btn1"></div>
-				</div> --%>
+				</div> --!>
 			</div>
 		<!-- 하주리 끝 -->
 
@@ -690,34 +941,35 @@
                 <div id="s6-title2">다양한 최근 소식과 정보를 전달드립니다.</div>
                 <div id="s6-in-wrap">
                     <div class="s6-con s6-con-hover1">
-                        <a href="https://blog.naver.com/PostView.naver?blogId=visiontek1&logNo=222654731956&categoryNo=1&parentCategoryNo=&from=thumbnailList" target="_blank">
-                            <img class="s6-img" src="../../../resources/new_img/main/news1.png" alt=""/>
+                        <a href="https://blog.naver.com/visiontek1/223158527702" target="_blank">
+                            <img class="s6-img" src="../../../resources/new_img/main/news3.png" alt=""/>
                             <div class="s6-in-con-black"></div>
-                            <p class="s6-p s6-p1">팔로알토네트웍스 조달제품 이벤트</p>
+                            <p class="s6-p s6-p1">아리스타네트웍스 나라장터 조달 프로모션</p>
                         </a>
                     </div>
                     <div class="s6-con s6-con-hover1">
-                        <a href="https://blog.naver.com/visiontek1/222850470476" target="_blank">
-                            <img class="s6-img" src="../../../resources/new_img/main/news2.jpg" alt=""/>
+                        <a href="https://blog.naver.com/visiontek1/223149645757" target="_blank">
+                            <img class="s6-img" src="../../../resources/new_img/main/news4.png" alt=""/>
                             <div class="s6-in-con-black"></div>
-                            <p class="s6-p s6-p1">22년 VISIONTEK Security & Cloud Summit</p>
+                            <p class="s6-p s6-p1">2023 아리스타네트웍스 조달 로드쇼 행사 스케치</p>
                         </a>
                     </div>
                     <div class="s6-con">
+					<a href="https://news.mt.co.kr/mtview.php?no=2023082814412698341" target="_blank">
+                            <div class="s6-in-con s6-in-con-margin">
+                                <img class="s6-img" src="../../../resources/new_img/main/news_5.jpg" alt=""/>
+                                <div class="s6-in-con-black s6-in-con-black2"></div>
+                                <p class="s6-p s6-p2">프라이빗테크놀로지-비전테크, 조달 총판 계약 체결</p>
+                            </div>
+                        </a>
                         <a href="https://www.dailysecu.com/news/articleView.html?idxno=122131" target="_blank">
                             <div class="s6-in-con s6-in-con-margin">
-                                <img class="s6-img" src="../../../resources/new_img/main/news4_m.jpg" alt=""/>
-                                <div class="s6-in-con-black s6-in-con-black2"></div>
-                                <p class="s6-p s6-p2">팔로알토네트웍스-비전테크 조달총판 계약 체결</p>
-                            </div>
-                        </a>
-                        <a href="https://youtu.be/KUMbDFYiNzc?t=2" target="_blank">
-                            <div class="s6-in-con">
-                                <img class="s6-img" src="../../../resources/new_img/main/news3_m.jpg" alt=""/>
+                                <img class="s6-img" src="../../../resources/new_img/main/news_6.jpg" alt=""/>
                                 <div class="s6-in-con-black s6-in-con-black3"></div>
-                                <p class="s6-p s6-p3">웨비나-왜 고성능방화벽이어야만 하는가</p>
+                                <p class="s6-p s6-p3">팔로알토네트웍스-비전테크, 조달 총판 계약 체결</p>
                             </div>
                         </a>
+                        
                     </div>
                 </div>
                 
@@ -728,7 +980,7 @@
                     </div>
                     <div id="meida-con-wrap">
                         <div class="media-con">
-                            <a href="">
+                            <a href="http://pf.kakao.com/_kREvb" target="_blank">
                                 <div class="media-img-wrap">
                                     <img src="../../../resources/new_img/main/s6-icon2.png" alt=""/>
                                 </div>
@@ -736,11 +988,19 @@
                             </a>
                         </div>
                         <div class="media-con">
-                            <a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">
+                            <a href="https://blog.naver.com/visiontek1" target="_blank">
                                 <div class="media-img-wrap">
                                     <img src="../../../resources/new_img/main/s6-icon4.png" alt=""/>
                                 </div>
                                 <p class="media-p">블로그</p>
+                            </a>
+                        </div>
+						<div class="media-con">
+                            <a href="https://www.instagram.com/visiontek_official/" target="_blank">
+                                <div class="media-img-wrap">
+                                    <img src="../../../resources/new_img/main/s6-icon1.png" alt=""/>
+                                </div>
+                                <p class="media-p">인스타그램</p>
                             </a>
                         </div>
                         <div class="media-con">
@@ -751,40 +1011,12 @@
                                 <p class="media-p">유튜브</p>
                             </a>
                         </div>
-                        <div class="media-con">
-                            <a href="">
-                                <div class="media-img-wrap">
-                                    <img src="../../../resources/new_img/main/s6-icon1.png" alt=""/>
-                                </div>
-                                <p class="media-p">인스타그램</p>
-                            </a>
-                        </div>
                         <div id="media-row-line"></div>
                     </div>
                 </div>
 
-                <div id="footer">
-                    <div class="f-top">
-                        <p>[전화번호] 051 - 892 - 3723</p>
-                    </div>
-                    <div class="footer-con f-middle">
-                        <p>[서울] 서울특별시 금천구 가산동 60-48번지 삼성IT해링턴타워 915호</p>
-                        <p>[부산] 부산시 해운대구 센텀중앙로97 센텀스카이비즈 A동 2509호</p>
-                    </div>
-                    <div class="footer-con f-bottom">
-                        <p>사업자 등록증:051 - 605 -77638</p>
-                        <a class="footer-a" href=""><p>BizCore: 업무 플랫폼 ERP 바로가기</p></a>
-                        <p id="footer-float-right">COPYRIGHT vision-tek.co.kr. ALL RIGHTS RESERVED.</p>
-                    </div>
-                </div>
             </div>
         </section>
-
-        <div id="top">
-            <div></div>
-            <p class="top-p">TOP</p>
-        </div>
-
 
 <script type="text/javascript">
 function selectBoard(seq) {

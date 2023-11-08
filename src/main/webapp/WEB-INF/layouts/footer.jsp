@@ -31,8 +31,31 @@ $(document).ready(function(){
 
 });
 </script>
-<!--//탑 버튼 E-->
 
+		<div id="top">
+            <div></div>
+            <p class="top-p">TOP</p>
+        </div>
+<!--//탑 버튼 E-->
+				<div id="footer">
+                    <div class="f-top">
+                        <p>사업자 등록번호: 605-81-77638</p>
+                    </div>
+                    <div class="footer-con f-middle">
+                        <p>[서울] 서울특별시 금천구 디지털로9길 41, 삼성IT해링턴타워 915호</p>
+                        <p>[전화번호] 070-8260-5601</p>
+					</div>	
+					<div class="footer-con f-middle">	
+						<p>[부산] 부산광역시 해운대구 센텀중앙로97, 센텀스카이비즈 A동 2509호</p>
+                        <p>[전화번호] 070-8260-3882</p>
+					</div>
+					<div class="footer-con f-middle">
+						<p>[대구] 대구광역시 북구 검단로 27길 53, 미광전업 3층</p>
+					</div>
+                    <div class="footer-con f-bottom">
+                        <p>COPYRIGHTⓒ vtek.co.kr. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
 <!-- footer S -->
 <%-- <footer>
 	<div class="innerwrap">

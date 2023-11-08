@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="ui" uri="ui"%>
 <!--서브 비주얼이미지 S-->
 <section id="sub_visual">
 	<div class="sub_visual_txt">
@@ -33,8 +32,9 @@
 			</li>
 			<li class="depth_sub"><a href="javascript:void('0')">넷코아테크</a>
 				<ul>
-					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure02'/>">팔로알토네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure05'/>">아리스타네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure03'/>">넷코아테크</a></li>
                     <li><a href="<c:url value='/procure/procure04'/>">맨텍</a></li>
                     <!--<li><a href="<c:url value='/procure/procure05'/>">LG히다찌</a></li>-->
@@ -85,7 +85,7 @@
 						<li>
 							<c:choose>
 							    <c:when test="${'<img/>' eq board.content}">
-							        <p class="pdt_img"><img src="<c:url value='/resources/img/procure/noimg.gif'/>"alt="noimg"/></p>
+							        <p class="pdt_img"><img src="<c:url value='/resources/img/procure/mainprocurenet1.jfif'/>"alt="noimg"/></p>
 							    </c:when>
 							    <c:otherwise>
 							        <p class="pdt_img">${board.content }</p>
@@ -115,7 +115,7 @@
 				<!--//페이징-->
 				<!-- 모바일용 페이징 S -->
 				<div class="mb_paging_btn">
-				<ui:pagination paginationInfo="${paginationInfo2}" type="imageMobile" jsFunction="goPageNum" />
+				<ui:pagination paginationInfo="${paginationInfo}" type="imageMobile" jsFunction="goPageNum" />
 <!-- 					<button class="prev">이전</button> <span class="total">3/15</span> <button class="next">다음</button> -->
 				</div>
 				<!-- 모바일용 페이징 E -->

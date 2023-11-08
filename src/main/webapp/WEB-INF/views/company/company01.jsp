@@ -22,13 +22,9 @@
 				<a href="javascript:void('0')">회사소개</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution03_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure02'/>">조달제품</a>
+					<li><a href="https://blog.naver.com/visiontek1" target="_blank">소식</a>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">개요</a>
@@ -88,7 +84,7 @@
 							<div>
 								<p class="icon"><img alt="" src="<c:url value='/resources/img/company/overview_ic05.png'/>" /></p>
 								<p class="tit">사무실주소</p>
-								<p class="txt">[서울] 서울특별시 금천구 가산동 60-48번지 삼성IT해링턴타워 915호<br>[부산] 부산광역시 해운대구 센텀중앙로 97,센텀스카이비즈 A동 2509호</p>
+								<p class="txt">[서울] 서울특별시 금천구 디지털로9길 41, 삼성IT해링턴타워 915호<br>[부산] 부산광역시 해운대구 센텀중앙로 97, 센텀스카이비즈 A동 2509호</p>
 							</div>
 						
 							<!-- <div>

@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="ui" uri="ui"%>
 <!--서브 비주얼이미지 S-->
 <section id="sub_visual">
 	<div class="sub_visual_txt">
@@ -21,20 +20,17 @@
 			<li class="depth_sub">
 				<a href="javascript:void('0')">조달제품</a>
 				<ul>
-					<li><a href="<c:url value='/company/company01'/>">회사소개</a></li>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a></li>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a></li>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a></li>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a></li>
+                    <li><a href="<c:url value='/company/company01'/>">회사소개</a>
+                    <li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+                    <li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+                    <li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
 				</ul>
 			</li>
 			<li class="depth_sub"><a href="javascript:void('0')">팔로알토네트웍스</a>
 				<ul>
-					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure02'/>">팔로알토네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure05'/>">아리스타네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure03'/>">넷코아테크</a></li>
                     <li><a href="<c:url value='/procure/procure04'/>">맨텍</a></li>
                     <!--<li><a href="<c:url value='/procure/procure05'/>">LG히다찌</a></li>-->
@@ -43,9 +39,9 @@
                     <!--<li><a href="<c:url value='/procure/procure08'/>">BeyondTrust</a></li>-->
 				</ul>
 			</li>
-			<li class="depth_sub2"><a href="javascript:void('0')">글로벌고성능방화벽</a>
+			<li class="depth_sub2"><a href="javascript:void('0')">AI방화벽</a>
 				<ul>
-					<li><a href="<c:url value='/procure/procure02'/>">글로벌고성능방화벽</a></li>
+					<li><a href="<c:url value='/procure/procure02'/>">AI방화벽</a></li>
 					<%-- <li><a href="<c:url value='/procure/procure02_2'/>">컴퓨터망전환장치</a></li> --%>
 				</ul>
 			</li>
@@ -54,7 +50,7 @@
 	<!--//페이지경로-->
 
 	<div id="sub_middle">
-		<h3 class="ctle">글로벌고성능방화벽</h3>
+		<h3 class="ctle">AI방화벽</h3>
 		
 		<!--컨텐츠 S-->
 		<div class="contents">
@@ -66,11 +62,11 @@
 					<p class="stxt"><span>VDI System</span></p> --%>
 					<div class="conts">
 						<div class="title">
-							<p>글로벌고성능방화벽</p>
+							<p>AI방화벽</p>
 						</div>
 						<div class="conts_in">
 							기존 방화벽은 단지 포트와 IP에 대하여 처리합니다. 60%이상의 Application에 대해 기존 방화벽에서는 처리가 불가합니다.<br/>
-							이러한 문제를 글로벌고성능방화벽이 처리합니다. 최고의 성능을 보장하는 NGFW(글로벌고성능방화벽)입니다. 
+							이러한 문제를 AI방화벽이 처리합니다. 최고의 성능을 보장하는 AI방화벽입니다. 
 						</div>
 					</div>
 					<div class="btn_wr">
@@ -83,23 +79,40 @@
 				</div>
 
 				<!--20211006 하주리 수정시작-->
+				<!--20230210 이지현 수정시작-->
 					<div class="ssl_wrap">
 						<h3 class="cnt_tit NGFWcnt_tit">주요 제품 라인업</h3>
 						<div class="ssl_wrap">
 						<%-- <h3 class="cnt_tit ssl_tit">APPLICATION INSIGHT WAF Line-UP</h3> --%>
 						<div class="ssl_con3">
                             <div class="ssl_con3_c ssl_con3_c1">
-                                <img class="ssl_con3_c1_img" src="<c:url value='/resources/new_img/pa220.png'/>" alt="img"/>
+                                <img class="ssl_con3_c1_img" src="<c:url value='/resources/new_img/pa450.png'/>" alt="img"/>
                             </div>
                             <div class="ssl_con3_c ssl_con3_c2">
                                 <div class="ssl_con3_c1_in1"></div>
                                 <div class="ssl_con3_c2_in2">
                                     <div>팔로알토네트웍스</div>
-                                    <div>PA-220</div>
+                                    <div>PA-440</div>
                                 </div>
                                 <div class="ssl_con3_c1_in3">방화벽장치</div>
-                                <div class="ssl_con3_c1_in4"><span>물품식별번호</span>24040687</div>
-                                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>4,000,000 원</div>
+                                <div class="ssl_con3_c1_in4"><span>물품식별번호</span>24583752</div>
+				                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>3,850,000 원</div>
+                            </div>
+						</div>
+
+						<div class="ssl_con3">
+                            <div class="ssl_con3_c ssl_con3_c1">
+                                <img class="ssl_con3_c1_img" src="<c:url value='/resources/new_img/pa450.png'/>" alt="img"/>
+                            </div>
+                            <div class="ssl_con3_c ssl_con3_c2">
+                                <div class="ssl_con3_c1_in1"></div>
+                                <div class="ssl_con3_c2_in2">
+                                    <div>팔로알토네트웍스</div>
+                                    <div>PA-450</div>
+                                </div>
+                                <div class="ssl_con3_c1_in3">방화벽장치</div>
+                                <div class="ssl_con3_c1_in4"><span>물품식별번호</span>24583753</div>
+				                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>10,120,000 원</div>
                             </div>
 						</div>
 
@@ -163,7 +176,7 @@
                                 </div>
                                 <div class="ssl_con3_c1_in3">방화벽장치</div>
                                 <div class="ssl_con3_c1_in4"><span>물품식별번호</span>24255745</div>
-                                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>94,000,000 원</div>
+                                <div class="ssl_con3_c1_in4"><span>조달등록가격</span>91,180,000 원</div>
                             </div>
 						</div>
 					</div><!--ssl_wrap끝-->

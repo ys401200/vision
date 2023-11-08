@@ -22,13 +22,9 @@
 				<a href="javascript:void('0')">회사소개</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution03_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure02'/>">조달제품</a>
+					<li><a href="https://blog.naver.com/visiontek1" target="_blank">소식</a>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">연혁</a>
@@ -53,13 +49,121 @@
 			<div class="history inner">
 				<div class="year_tab">
 					<ul>
-						<li class="on"><a href="#" class="menu1">현재~2018</a></li>
-						<li><a href="#" class="menu2">2017~2016</a></li>
+						<li class="on"><a href="#" class="menu1">현재~2020</a></li>
+						<li><a href="#" class="menu2">2019~2016</a></li>
 						<li><a href="#" class="menu3">2015~2011</a></li>
 						<li><a href="#" class="menu4">2010~2005</a></li>
 					</ul>
 				</div>
 				<div class="tabscontents t1">
+					<div class="history_list">
+							<h3 class="year">2023</h3>
+                          	<ul>
+							<li><span class="date">7월</span>
+								<span class="his_txt">대구지사 설립</span>
+							</li>
+							<li><span class="date">6월</span>
+								<span class="his_txt">전라북도교육청 미래교육연구원 SSL가시성시스템 구축 사업 수주</span>
+								<span class="his_txt">서울특별시 소방재난본부 웹방화벽 구축 사업 수주</span>
+								<span class="his_txt">서울특별시교육청 노후 웹방화벽 교체 사업 수주</span>
+							</li>
+							<li><span class="date">5월</span>
+								<span class="his_txt">한국지역정보개발원 차세대 지방재정관리 시스템 구축 사업 수주</span>
+							</li>
+							<li><span class="date">4월</span>
+								<span class="his_txt">한국교통연구원 정보보안시스템 교체 사업 수주</span>
+							</li>
+							<li><span class="date">3월</span>
+								<span class="his_txt">경상북도예천군 스마트도시통합운영센터 노후 웹방화벽 교체 사업 수주</span>
+								<span class="his_txt">기상청 정보보호시스템 구축 사업 수주</span>
+							</li>
+							<li><span class="date">2월</span>
+								<span class="his_txt">경기도 광주시 웹방화벽 교체 사업 수주</span>
+							</li>
+                              </ul>
+                          </div>
+					<div class="history_list">
+                          	<h3 class="year">2022</h3>
+                          	<ul>
+							<li><span class="date">12월</span>
+								<span class="his_txt">한국해양과학기술원 방화벽장치 구축 사업 수주</span>
+								<span class="his_txt">경상북도 성주군 스마트타운 조성사업 방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">11월</span>
+								<span class="his_txt">경상남도 노후 정보보호시스템 교체 사업 수주</span>
+								<span class="his_txt">인천광역시교육청 웹방화벽 구축 사업 수주</span>
+								<span class="his_txt">한국남동발전 네트워크방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">9월</span>
+								<!-- <span class="his_txt">틸론 조달총판 계약</span> -->
+								<span class="his_txt">한국광기술원 웹방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">8월</span>
+								<span class="his_txt">순천대학교 웹방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">6월</span>
+								<span class="his_txt">울산광역시교육청 웹방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">5월</span>
+								<span class="his_txt">기상청 웹방화벽 구축 사업 수주</span>
+								<span class="his_txt">한국지역정보개발원 차세대 지방재정관리 시스템 구축 사업 수주</span>
+							</li>
+							<li><span class="date">4월</span>
+								<span class="his_txt">한국건설기술연구원 방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">2월</span>
+								<span class="his_txt">서울특별시 의회사무처 정보통신장비 구축 사업 수주</span>
+							</li>
+							<li><span class="date">1월</span>
+								<span class="his_txt">부경대학교 정보전산원 웹방화벽 구축 사업 수주</span>
+							</li>
+                              </ul>
+                          </div>
+					<div class="history_list">
+                          	<h3 class="year">2021</h3>
+                          	<ul>
+                              	<li><span class="date">12월</span>
+								<span class="his_txt">한국지역난방공사 차세대 방화벽시스템 구축 사업 수주</span>
+								<%-- <span class="his_txt">티맥스소프트 파트너 계약</span> --%>
+							</li>
+                            <li><span class="date">11월</span>
+								<span class="his_txt">한국과학기술연구원 웹방화벽 구축 사업 수주</span>
+								<span class="his_txt">한국관광공사 방화벽장치 구축 사업 수주</span>
+							</li>
+							<li><span class="date">10월</span>
+								<span class="his_txt">연세대학교 원주산학협력단 웹방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">9월</span>
+								<span class="his_txt">국가보안기술연구소 방화벽 구축 사업 수주</span>
+								<span class="his_txt">한국지역난방공사 차세대방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">8월</span>
+								<!-- <span class="his_txt">틸론 조달총판 계약</span> -->
+								<span class="his_txt">충남대학교병원 빅데이터센터 방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">7월</span>
+								<span class="his_txt">대법원 유해차단솔루션 구축 사업 수주</span>
+								<span class="his_txt">한국조선해양기자재연구원 웹방화벽 교체 사업 수주</span>
+							</li>
+							<li><span class="date">6월</span>
+								<span class="his_txt">한국자산관리공사 차세대 채권관리시스템 구축 사업 수주</span>
+							</li>
+							<li><span class="date">5월</span>
+								<span class="his_txt">재단법인 부산경제진흥원 부산일자리정보망 웹방화벽 구축 사업 수주</span>
+								<%-- <span class="his_txt">한국에너지공단 웹보안시스템 사업수주</span> --%>
+							</li>
+							<li><span class="date">3월</span>
+								<span class="his_txt">경상남도 노후 트래픽관리시스템 교체 사업 수주</span>
+								<span class="his_txt">과학기술정보통신부 국립중앙과학관 노후 보안장비 교체 사업 수주</span>
+							</li>
+							<li><span class="date">2월</span>
+								<span class="his_txt">전라북도 진안군 웹방화벽 구축 사업 수주</span>
+							</li>
+							<li><span class="date">1월</span>
+								<span class="his_txt">울산광역시 울주군 노후 웹방화벽 교체 사업 수주</span>
+							</li>
+                              </ul>
+                          </div>
 					<div class="history_list">
                           	<h3 class="year">2020</h3>
                           	<ul>
@@ -99,6 +203,8 @@
 							</li>
                               </ul>
                           </div>
+						</div>
+				<div class="tabscontents t2">	
 					<div class="history_list">
                           	<h3 class="year">2019</h3>
                           	<ul>
@@ -141,7 +247,7 @@
 								<span class="his_txt">제주 한라대학교 네트워크 트래픽 분석 시스템 구축 사업 수주</span>
 							</li>
                               </ul>
-                          </div>
+                    		</div>
 					<div class="history_list">
                           	<h3 class="year">2018</h3>
                           	<ul>
@@ -186,9 +292,7 @@
 								<span class="his_txt">제주 한라대학교 네트워크 트래픽 분석 시스템 구축 사업 수주</span>
 							</li> --%>
                               </ul>
-                          </div>		
-				</div>
-				<div class="tabscontents t2">
+                          </div>	
 					<div class="history_list">
                           	<h3 class="year">2017</h3>
                           	<ul>
@@ -196,8 +300,7 @@
 								<span class="his_txt">LG히다찌 스토리지 조달 총판계약 </span>
 								<span class="his_txt">센텀 스카이비즈 사옥 이전</span>
 								<!-- <span class="his_txt">광양시청,군포시청 VDI 사업 수주</span> -->
-							</li>
-                                  <li><span class="date">10월</span>
+							</li><li><span class="date">10월</span>
 								<span class="his_txt">망연계솔루션 전문회사인 SQI소프트와 조달 총판계약</span>
 								<!-- <span class="his_txt">한국산업안전보건공단 VDI사업 수주</span> -->
 							</li>
@@ -222,7 +325,7 @@
 								<span class="his_txt">엘나인글로벌 SP 파트너 계약</span>
 							</li>
                               </ul>
-                          </div>
+                          	</div>
 					<div class="history_list">
                           	<h3 class="year">2016</h3>
                           	<ul>
@@ -230,7 +333,7 @@
 								<span class="his_txt">정보통신산업진흥원(NIA) VDI 사업 수주</span>
 								<span class="his_txt">티맥스소프트 파트너 계약</span>
 							</li>
-                                  <li><span class="date">11월</span>
+							<li><span class="date">11월</span>
 								<span class="his_txt">한국수력원자력 VOIP방화벽 수주 </span>
 							</li>
 							<li><span class="date">10월</span>
@@ -258,8 +361,8 @@
 								<span class="his_txt">시흥시 웹보안시스템 수주</span>
 							</li>
                               </ul>
-                          </div>		
-				</div>
+                          	</div>		
+						</div>
 				<div class="tabscontents t3">
 					<div class="history_list">
                           	<h3 class="year">2015</h3>
@@ -342,8 +445,8 @@
 								<span class="his_txt">아이넵 채널 계약</span>
 							</li>
                               </ul>
-                          </div>	
-				</div>
+                          	</div>	
+						</div>
 				<div class="tabscontents t4">
 					<div class="history_list">
                           	<h3 class="year">2010</h3>
@@ -389,8 +492,8 @@
 								<span class="his_txt">소프트웨어사업자 신고</span>
 							</li>
                               </ul>
-                          </div>	
-				</div>
+                          	</div>	
+						</div>
 				<script type="text/javascript">
 				<!--
 					$('.t1').show();

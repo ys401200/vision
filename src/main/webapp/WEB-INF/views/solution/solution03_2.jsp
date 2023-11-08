@@ -1,220 +1,244 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!--서브 비주얼이미지 S-->
+<style>
+.inner>div {margin-bottom:100px; overflow:hidden;}
+
+@media (max-width:1350px) and (min-width:1025px) {
+        .contents .inner {width:95%;}
+}
+</style>
 <section id="sub_visual">
-	<div class="sub_visual_txt">
-		<span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
-		<h2>솔루션</h2>
-	</div>
-	<div class="viimg svis02 visualZoom">
-	</div>
+        <div class="sub_visual_txt">
+                <span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
+                <h2>지능형 IoT</h2>
+        </div>
+        <div class="viimg svis02 visualZoom">
+        </div>
 </section>
 <!--//서브 비주얼이미지 E-->
       
-      <!-- content S -->
+    <!-- content S -->
 <div id="sub_container">
-	<!--페이지경로-->
-	<div class="path">
-		<ul class="depth">
-			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
-			<li class="depth_sub">
-				<a href="javascript:void('0')">솔루션</a>
-				<ul>
-					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >솔루션</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
-				</ul>
-			</li>
-			<li class="depth_sub"><a href="javascript:void('0')">Database</a>
-				<ul>
-					<li><a href="<c:url value='/solution/solution01'/>">보안솔루션</a></li>
+        <!--페이지경로-->
+        <div class="path">
+                <ul class="depth">
+                        <li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
+                        <li class="depth_sub">
+                                <a href="javascript:void('0')">사업영역</a>
+                                <ul>
+                                        <li><a href="<c:url value='/company/company01'/>">회사소개</a>
+                                        <li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+                                        <li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+                                        <li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
+                                </ul>
+                        </li>
+                        <li class="depth_sub"><a href="javascript:void('0')">지능형 IoT</a>
+                                <ul>
+                                        <li><a href="<c:url value='/solution/solution03_2'/>">지능형 IoT</a></li>
+                                        <li><a href="<c:url value='/solution/solution01_2'/>">solution</a></li>
 					<li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
-					<li><a href="<c:url value='/solution/solution03'/>">Database</a></li>
-					<!-- <li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
-					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li> -->
-				</ul>
-			</li>
-			<li class="depth_sub2"><a href="javascript:void('0')">MariaDB Max Scales</a>
-				<ul>
-					<li><a href="<c:url value='/solution/solution03'/>">eXperDB</a></li>
-					<li><a href="<c:url value='/solution/solution03_2'/>">MariaDB Max Scales</a></li>
-					<li><a href="<c:url value='/solution/solution03_3'/>">Goldilocks</a></li>
-					<li><a href="<c:url value='/solution/solution03_4'/>">DBMS Migration Service</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<!--//페이지경로-->
+					<li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
+                                </ul>
 
-	<div id="sub_middle">
-		<h3 class="ctle">MariaDB Max Scale</h3>
-		
-		<!--컨텐츠 S-->
-		<div class="contents">
-			<!--DB방화벽 S-->
-			<div class="solution_hd sol03">
-				<div class="inner">
-					<h3 class="hd_tit">MariaDB Max Scale</h3>
-					<%-- <p class="mtxt">전용 <span class="txt_str"></span></p> --%>
-					<p class="mtxt">수평 확장 배치에서 보안, 확장성 및 고가용성을 관리하는 DB Proxy</p>
-					<p class="center">MariaDB MaxScale을 사용하면 데이터베이스 클러스터의 확장성, 가용성을 쉽게 관리할 수 있습니다.<br/>
-					수평 확장 배치에서 보안, 확장성, 고가용성을 관리하는 차세대 데이터베이스 프록시입니다.<br/>
-					MaxScale을 사용하면 응용 프로그램 성능을 저하시키지 않으면서 데이터베이스 프로세스가 실행됩니다.<br/>
-					MaxScale의 플러그인 아키텍쳐는 유연성을 높이고 사용자 정의를 지원하도록 설계되었습니다.
-					</p>
-				</div>	
-			</div>
-			<div class="inner">
-				<div class="solution01">
-					<!--20210930에 업로드 한 거 시작-->
-					<h3 class="new_cnt_tit">제품특징</h3>
-					<div class="MariaDB_wrap">
-						<div class="MariaDB_text1_1">MariaDB<br/>MaxScale</div>
-						<div class="MariaDB_2_wrap">
-							<img src="<c:url value='/resources/new_img/MaxScale1.jpg'/>" alt=""/>
-							<div class="MariaDB_text1_2">MariaDB 는 전세계적으로 1,200 만명 이상의 사용자가 사용하는 가장 빠르게 성장하는 오픈소스 데이터베이스입니다.<br/>
-							MySQL 설립자에 의해 시작된 MariaDB Corporation은 OLT에서부터 단일 SQL 호환 인터페이스의 분석에 이르기까지<br/>
-							오늘날 기업의 요구사항을 지원하기 위해 데이터베이스를 재발명하고 있습니다.<br/>
-							MariaDB 제품 중 하나인 MaxScale은 오픈소스 프록시 소프트웨어로 DB와 애플리케이션을 완전히 분리하여<br/> 
-							중간에서 둘을 연결하고 로드밸런싱을 담당하는 게이트웨이 소프트웨어입니다.<br/>
-							관리자는 애플리케이션에 영향을 미치지 않고 DB를 운영할 수 있고, 애플리케이션은 DB 아키텍처에 구애받지 않게 운영 가능합니다.
-							</div>
-						</div>
-					</div>
-					<div class="MariaDB_wrap">
-						<div class="MariaDB_text1_1">데이터베이스 보안</div>
-						<div class="MariaDB_text1_2">MaxScale은 SQL 주입 및 DDoS와 같은 보안 공격을 방지합니다.
-						데이터베이스는 중요한 정보에 접근하려는 해커의 목표인 회사의 중요한 정보자산입니다. 
-						MaxScale은 원치 않는 엑세스를 완화하는데 적극적인 자세를 취하고 있습니다.
-						MaxScale은 모든 수준에서 데이터베이스를 보호하는 고급 데이터베이스 방화벽 기능을 제공합니다.
-						① 안전한 데이터 액세스를 위한 end-to-end SSL 지원 및 로컬 액세스 활용
-						② 유연한 화이트리스트 및 쿼리 동작의 블랙리스트와 함께 SQL 주입공격 방지
-						③ 내장된 속도 제한 규칙을 구성하여 DDoS 공격 완화
-						</div>
-					</div>
-					<!--20210928에 업로드 한 거 끝-->
+                </ul>
+        </div>
+        <!--//페이지경로-->
 
+        <div id="sub_middle">
 
-					<%-- <h3 class="btit_str">DB 방화벽이 필요한 이유?</h3>
-					<div class="con_wr">
-						<p class="center"><img src="<c:url value='/resources/img/solution/solution03_2_gph01.gif'/>" alt="01.조직내의 구성원 다양화를 통한 위험성 증대, 02.중요 자산으로서 정보의 가치 상승, 03.IT Compliance & 법률 강화, 04.기존 보안 솔루션의 한계점 "/></p>	
-					</div>
-					
-					<h3 class="cnt_tit">AIDFW 특징</h3>
-					<div class="con_wr">
-						<h4 class="cnt_tit02">고성능 네트워크 기반 전용 장비</h4> 
-						<div class="con_wr_2dth">
-							<ul class="con_list">
-								<li>자동화된 DB 보안 정책 생성 및 적용(Adaptive Profiling)</li>
-								<li>강력한 접근제어 및 권한제어, 세션 제어 기능</li>
-								<li>고객 네트워크 환경에 최적화된 다양한 구성 모드 제공</li>
-							</ul>
-						</div>	
-						<h4 class="cnt_tit02">IP, DB 사용자, 접속 시간대별 접근제어</h4> 
-						<div class="con_wr_2dth">
-							<ul class="con_list">
-								<li>DB Object별, SQL 구문 별 권한제어</li>
-								<li>Adaptive Profiling (DML/Form)</li>
-								<li>세션 모니터링 및 통제 기능</li>
-								<li>데이터 마스킹</li>
-								<li>웹과 데이터베이스 로그 연관 분석(Intelligent User Tracking)</li>
-								<li>감사로깅</li>
-							</ul>
-						</div>	
-					</div>
-					
-					<h3 class="cnt_tit">AIDFW 기능</h3>
-					<div class="con_wr">
-						<h4 class="cnt_tit02">WEB 기반의 직관적인 사용자 인터페이스 제공</h4>
-						<div class="con_wr_2dth">
-							<ul class="con_list">
-								<li>다양한 로그 검색 및 관리 기능 제공</li>
-								<li>다양한 통계 및 보고서 기능 제공</li>
-							</ul>
-						</div>
+                <!--컨텐츠 S-->
+                <div class="contents">
+                        <!--DB방화벽 S-->
+                        <div class="solution_hd sol03">
+                                <div class="inner">
+                                        <h3 class="hd_tit">지능형 IoT</h3>
+                                        <!-- <p class="mtxt">전용 <span class="txt_str"></span></p> --%>
+                                         <p class="mtxt">VS는 24시간 안전한 건물을 되도록 지능형 감시기능을 제공합니다.</p> --%>-->
+                                        </br>
+                                         <p class="center">VS는 24시간 안전한 건물이 되도록 지능형 감시기능을 제공합니다.</p>
+                                </div>
+                        </div>
 
-						<h4 class="cnt_tit02">준수 규정 </h4>
-						<div class="table-responsive">
-							<table cellpadding="0" cellspacing="0" border="0" class="tbl">
-								<caption class="blind"></caption>
-								<colgroup>
-									<col width="50%" />
-									<col width="50%" />
-								</colgroup>
-								<thead>
-									<tr>
-										<th>개인정보 보호법 시행 (2011.09.30)</th>
-										<th>AIDFW 보호정책</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="lft">
-											- 개인정보 수집 시 최소한 정보 수집 (제15조, 제 16조) <br>
-											- 개인정보 처리 시 안전조치의무화 (제 24조, 제 29조) <br>
-											- 개인정보를 정당한 권한 없이 유출 금지 (제 59조) <br>
-										</td>
-										<td class="lft">
-											- 개인정보가 포함된 컬럼 접근 제한<br>
-											- 개인정보가 포함된 데이터 유출 보호 (마스킹)
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<div class="box_wr">
-							<img src="<c:url value='/resources/img/solution/solution03_2_gph02.gif'/>" alt=""/>
-						</div>	
-					</div>
+                        <div class="inner">
+                                <div class="iot_solution01">
+                                        <h3 class="new_cnt_tit">제품 소개</h3>
+                                        <div class="iot_sol1_ConWrap1">
+                                                <div class="iot_title">VS는 24시간 안전한 건물이 되도록 지능형 감시기능을 제공합니다.</div>
+                                                <div class="iot_title">신속한 상황전파, 지능형 감시체계, 높은 비용대비 효과</div>
+                                        </div>
+                                        <div class="iot_sol1_ConWrap2">
+                                                <div>
+                                                        <img src="<c:url value='/resources/new_img/iot1.png'/>" alt="img"/>
+                                                </div>
+                                                <div>
+                                                        <img src="<c:url value='/resources/new_img/iot2.png'/>" alt="img"/>
+                                                </div>
+                                        </div>
+                                        <div class="iot_sol1_ConWrap3">
+                                                <div>
+											                <div><div>1.</div>24시간 실시간 경계 감시</div>
+                                                        <div>24시간 전담 요원이 CCTV를 보면서 감시하는 효과를 가지며, 화재 뿐만 아니라 다양한 사고에 대응이 가능합니다.</div>
+                                                </div>
 
-					<h3 class="cnt_tit">AIDFW 제품 </h3>
-					<div class="con_wr">
-						<div class="table-responsive">
-							<table cellpadding="0" cellspacing="0" border="0" class="tbl">
-								<caption class="blind"></caption>
-								<colgroup>
-									<col width="40%" />
-									<col width="60%" />
-								</colgroup>
-								<tbody>
-									<tr>
-										<td class="tbl_tit02"><img src="<c:url value='/resources/img/solution/solution03_2_aidfw01.png'/>" alt=""/><br>AIDFW-100_Y17 </td>
-										<td class="lft">- Single Power<br>- Supply 10/100/1000 x4</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02"><img src="<c:url value='/resources/img/solution/solution03_2_aidfw02.png'/>" alt=""/><br>AIDFW-200_Y17 </td>
-										<td class="lft">- Single Power Supply<br>- 10/100/1000 x6<br>- 10/100/1000 x4 or 1G Fiber x4</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02"><img src="<c:url value='/resources/img/solution/solution03_2_aidfw03.png'/>" alt=""/><br>AIDFW-500_Y17 </td>
-										<td class="lft">- Redundant Power Supply<br>- 10/100/1000 x6<br>- 10/100/1000 x4 x2 or 1G Fiber x4 x2</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02"><img src="<c:url value='/resources/img/solution/solution03_2_aidfw04.png'/>" alt=""/><br>AIDFW-1000_Y17 </td>
-										<td class="lft">- Redundant Power<br>- UTP 10/100/1000 x2 and Fiber 10G x2<br>- 10/100/1000 x4 x7 or 1G Fiber x4 x7 or</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02"><img src="<c:url value='/resources/img/solution/solution03_2_aidfw05.png'/>" alt=""/><br>AIDFW-2000_Y17 </td>
-										<td class="lft">- Redundant Power Supply<br>- UTP 10/100/1000 x2 and Fiber 10G x2<br>- 10/100/1000 x4 x7 or 1G Fiber x4 x7 or 10G Fiber x2 x7</td>
-									</tr>
-									<tr>
-										<td class="tbl_tit02"><img src="<c:url value='/resources/img/solution/solution03_2_aidfw06.png'/>" alt=""/><br>AIDFW-4000_Y17 </td>
-										<td class="lft">- Redundant Power Supply<br>- UTP 10/100/1000 x2 and Fiber 10G x2<br>- F10/100/1000 x4 x7 or 1G Fiber x4 x7 or 10G Fiber x2 x7</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div> --%>
-					
-				</div>
-			</div>
-			<!--//DB방화벽 E-->
-		</div>
-		<!--//컨텐츠 E-->
-	</div>
-	
-      </div>
+                                                <div>
+                                                        <div><div>2.</div>자동으로 업그레이드 되는 AI </div>
+                                                        <div>딥러닝 기능의 정기적인 업데이트를 통해 보다 정확한 상황관리가 가능합니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>3.</div>신속한 상황전파</div>
+                                                        <div>24시간 감시를 통해 즉각적으로 상황이 표출되어 신속하게 상황을 전파하고 안전하게 대응이 가능합니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>4.</div>현장 파악이 편리한 UI</div>
+                                                        <div>실제 지도에 정확하게 표출되어 즉시 현장을 파악하고 상황을 전파할 수 있습니다.</div>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="iot_solution02">
+                                        <h3 class="new_cnt_tit">제품 소개 > VS-1000</h3> 
+                                        <div class="iot_sol1_ConWrap1">
+                                                <div class="iot_title">CCTV 연동 기능을 갖춘 딥러닝 기반 통합관제 장비</div>
+                                                <div class="iot_title">지능적 현장 감시 및 상황전파 기능을 갖춘 AI 어플라이언스</div>
+                                        </div>
+										<div class="iot_sol1_ConWrap2">
+                                                <div class="conimg">
+                                                        <img src="<c:url value='/resources/new_img/iot3.png'/>" alt="img"/>
+                                                </div>
+                                                <div class="conimg">
+                                                        <img src="<c:url value='/resources/new_img/iot4.png'/>" alt="img"/>
+                                                </div>
+                                        </div>
+
+                                        <div class="iot_sol1_ConWrap3">
+                                                <div>
+                                                        <div><div>1.</div>실시간 CCTV 감시</div>
+                                                        <div>관리용 CCTV를 영상분석을 통해 현장의 상황을 파악하여 알려줌으로써 24시간 경계태세로 감시하는 효과를 가질 수 있습니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>2.</div>소방서와의 즉각적인 상황보고</div>
+                                                        <div>조건을 만족하는 문제가 발생하였다고 인식된 경우 즉시 관제센터에 화상을 전송하여 빠른 대응이 가능합니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>3.</div>지능적 상황전파</div>
+                                                        <div>근처 건물에 즉각적으로 상황을 전파하여 대피가 가능하게 하여 피해를 최소화합니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>4.</div>기존 설비와의 높은 호환성</div>
+                                                        <div>별도 장비의 구매 없이 기존 소방설비를 그대로 사용할 수 있어 높은 비용대비 효율성을 제공합니다.</div>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="iot_solution03">
+                                        <h3 class="new_cnt_tit">제품 소개 > Smart Hub</h3>  
+                                        <div class="iot_sol1_ConWrap1">
+                                                <div class="iot_title">복잡한 설치 과정없이 전원만 제공되면 어디든지 설치하여 24시간 안전을 확보할 수 있습니다.</div>
+                                                <div class="iot_title">간편한 설치, 실시간 수집 데이터 확인</div>
+                                        </div>
+										<div class="iot_sol2_ConWrap2">
+                                                <div class="conimg">
+                                                        <img src="<c:url value='/resources/new_img/iot5.png'/>" alt="img"/>
+                                                </div>
+                                        </div>
+
+                                        <div class="iot_sol1_ConWrap3">
+                                                <div>
+                                                        <div><div>1.</div>간편한 설치</div>
+                                                        <div>무선 네트워크 내장을 통해 전원만 공급되면 간편하게 강력한 24시간 상시 감시 체계를 구축할 수 있습니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>2.</div>오탐지 방지</div>
+                                                        <div>특정 센서 값이 이상 수치가 측정된 경우 연관 값과의 비교 분석을 통해 오탐지를 방지합니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>3.</div>24시간 지능형 감시체계 구축</div>
+                                                        <div>업그레이드 가능한 인공지능 분석 기능을 통해 상황에 맞는 지능형 감시체계를 구축할 수 있습니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>4.</div>합리적인 도입비용</div>
+                                                        <div>경쟁제품 대비 50% 이상 저렴한 가격으로 같은 비용을 투입시 2배 이상의 효율을 기대할 수 있습니다.</div>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="iot_solution04">
+                                        <h3 class="new_cnt_tit">제품 소개 > 모듈형 센서</h3>
+                                        <div class="iot_sol1_ConWrap1">
+                                                <div class="iot_title">필요한 데이터를 간편하게 추가하여 관리할 수 있습니다.</div>
+                                                <div class="iot_title">간편 설정을 통한 즉각적인 데이터 시각화</div>
+                                        </div>
+										<div class="iot_sol2_ConWrap2">
+                                                <div class="conimg">
+                                                        <img src="<c:url value='/resources/new_img/iot6.png'/>" alt="img"/>
+                                                </div>
+                                        </div>
+
+                                        <div class="iot_sol1_ConWrap3">
+                                                <div>
+                                                        <div><div>1.</div>표준 커넥터를 통한 표준 접속</div>
+                                                        <div>일반적으로 간편하게 추가할 수 있는 표준 접속 커넥터를 제공하여 설치 즉시 간편한 설정만으로 데이터 수집 및 확인이 가능합니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>2.</div>간편한 설정</div>
+                                                        <div>센서의 설치위치와 종류만 지정하면 간편하게 설정을 완료할 수 있습니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>3.</div>합리적인 가격</div>
+                                                        <div>합리적인 가격으로 비용에 대한 부담없이 필요한 센서를 추가하여 안전을 확보할 수 있습니다.</div>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="iot_solution05">
+                                        <h3 class="new_cnt_tit">제품 소개 > 지도형 통합관제</h3> 
+                                        <div class="iot_sol1_ConWrap1">
+                                                <div class="iot_title">지도위에 직관적으로 나타나 현장 상황을 파악하기 간편합니다.</div>
+                                                <div class="iot_title">실시간 현장 확인</div>
+                                        </div>
+										<div class="iot_sol2_ConWrap2">
+                                                <div class="conimg">
+                                                        <img src="<c:url value='/resources/new_img/iot7.png'/>" alt="img"/>
+                                                </div>
+                                        </div>
+                                        <div class="iot_sol1_ConWrap3">
+                                                <div>
+                                                        <div><div>1.</div>실시간 현장확인</div>
+                                                        <div>단순한 알람이 아닌 실시간 현장 영상으로 즉시 확인할 수 있습니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>2.</div>출동중인 대원들과의 정보 교류</div>
+                                                        <div>현장 출동 대원들이 현장에 도착하기 전 전반적인 현장상황을 제공하여 현장 파악에 도움을 주며 보다 안전하게 대응할 수 있습니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>3.</div>신속한 상황전파</div>
+                                                        <div>화재가 발생한 건물뿐만 아니라 주변 건물에도 즉시 상황이 전파되어 안전한 대피 시간을 확보할 수 있습니다.</div>
+                                                </div>
+
+                                                <div>
+                                                        <div><div>4.</div>즉각적인 지도상 위치 파악</div>
+                                                        <div>관내 지도를 기반으로 실제 위치가 즉각적으로 표출되어 현장 상황파악에 도움을 줍니다.</div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <!--//DB방화벽 E-->
+                </div>
+                <!--//컨텐츠 E-->
+        </div>
+
+</div>
 <!-- //content E -->

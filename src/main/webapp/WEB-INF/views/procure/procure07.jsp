@@ -1,6 +1,6 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="ui" uri="ui"%>
+
 <!--서브 비주얼이미지 S-->
 <section id="sub_visual">
 	<div class="sub_visual_txt">
@@ -30,17 +30,18 @@
                 </ul>
             </li>
             <li class="depth_sub"><a href="javascript:void('0')">인젠트</a>
-                <ul>
-                    <li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
+				<ul>
                     <li><a href="<c:url value='/procure/procure02'/>">팔로알토네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure05'/>">아리스타네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure03'/>">넷코아테크</a></li>
-                    <li><a href="<c:url value='/procure/procure04'/>">맨텍</a></li>
+                    <li><a href="<c:url value='/procure/procure04'/>">맨텍솔루션</a></li>
                     <!--<li><a href="<c:url value='/procure/procure05'/>">LG히다찌</a></li>-->
                     <li><a href="<c:url value='/procure/procure06'/>">올리브텍</a></li>
                     <li><a href="<c:url value='/procure/procure07'/>">인젠트</a></li>
                     <!--<li><a href="<c:url value='/procure/procure08'/>">BeyondTrust</a></li>-->
-                </ul>
-            </li>
+				</ul>
+			</li>
             <li class="depth_sub2"><a href="javascript:void('0')">개인정보 데이터 변환 솔루션</a>
                 <ul>
 					<li><a href="<c:url value='/procure/procure07'/>">개인정보 데이터 변환 솔루션</a></li>
@@ -153,7 +154,7 @@
 				<!--//조달제품 리스트 E-->
 
 				<!--페이징-->
-				<div class="paging">
+				<%-- <div class="paging">
 					<ul>
 						<ui:pagination paginationInfo="${paginationInfo}" type="image" jsFunction="goPageNum" />
 					</ul>
@@ -163,7 +164,7 @@
 				<div class="mb_paging_btn">
 				<ui:pagination paginationInfo="${paginationInfo2}" type="imageMobile" jsFunction="goPageNum" />
 <!-- 					<button class="prev">이전</button> <span class="total">3/15</span> <button class="next">다음</button> -->
-				</div>
+				</div> --%>
 				<!-- 모바일용 페이징 E -->
 
 			</div>

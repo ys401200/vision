@@ -1,6 +1,5 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="ui" uri="ui"%>
 <!--서브 비주얼이미지 S-->
 <section id="sub_visual">
 	<div class="sub_visual_txt">
@@ -29,18 +28,19 @@
                     <li><a href="<c:url value='/news/notice_list'/>">NEWS</a></li>
                 </ul>
             </li>
-            <li class="depth_sub"><a href="javascript:void('0')">맨텍</a>
-                <ul>
-                    <li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
+            <li class="depth_sub"><a href="javascript:void('0')">맨텍솔루션</a>
+				<ul>
                     <li><a href="<c:url value='/procure/procure02'/>">팔로알토네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure05'/>">아리스타네트웍스</a></li>
+					<li><a href="<c:url value='/procure/procure01'/>">모니터랩</a></li>
                     <li><a href="<c:url value='/procure/procure03'/>">넷코아테크</a></li>
-                    <li><a href="<c:url value='/procure/procure04'/>">맨텍</a></li>
+                    <li><a href="<c:url value='/procure/procure04'/>">맨텍솔루션</a></li>
                     <!--<li><a href="<c:url value='/procure/procure05'/>">LG히다찌</a></li>-->
                     <li><a href="<c:url value='/procure/procure06'/>">올리브텍</a></li>
                     <li><a href="<c:url value='/procure/procure07'/>">인젠트</a></li>
                     <!--<li><a href="<c:url value='/procure/procure08'/>">BeyondTrust</a></li>-->
-                </ul>
-            </li>
+				</ul>
+			</li>
             <li class="depth_sub2"><a href="javascript:void('0')">PaaS 솔루션</a>
                 <ul>
 					<li><a href="<c:url value='/procure/procure04'/>">PaaS 솔루션</a></li>
@@ -122,7 +122,7 @@
                             <div class="ssl_con3_c ssl_con3_c2">
                                 <div class="ssl_con3_c1_in1"></div>
                                 <div class="ssl_con3_c2_in2">
-                                    <div>멘텍</div>
+                                    <div>멘텍솔루션</div>
                                     <div>아코디언 v2.0, 1Core</div>
                                 </div>
                                 <div class="ssl_con3_c1_in3">클라우드인프라관리</div>
@@ -138,7 +138,7 @@
                             <div class="ssl_con3_c ssl_con3_c2">
                                 <div class="ssl_con3_c1_in1"></div>
                                 <div class="ssl_con3_c2_in2">
-                                    <div>멘텍</div>
+                                    <div>멘텍솔루션</div>
                                     <div>아코디언 v2.0, 1CPU</div>
                                 </div>
                                 <div class="ssl_con3_c1_in3">클라우드인프라관리</div>

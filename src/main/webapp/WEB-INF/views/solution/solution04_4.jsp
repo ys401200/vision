@@ -18,25 +18,20 @@
 		<ul class="depth">
 			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
 			<li class="depth_sub">
-				<a href="javascript:void('0')">클라우드</a>
+				<a href="javascript:void('0')">사업영역</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+					<li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
 				</ul>
 			</li>
 			<li class="depth_sub"><a href="javascript:void('0')">클라우드</a>
 				<ul>
-					<%-- <li><a href="<c:url value='/solution/solution01'/>">네트워크보안</a></li> --%>
+					<li><a href="<c:url value='/solution/solution03_2'/>">지능형 IoT</a></li>
+					<li><a href="<c:url value='/solution/solution01_2'/>">solution</a></li>
 					<li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution03'/>">어플리케이션 보안</a></li>
-					<li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
-					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li> --%>
+					<li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">네트워크스위치</a>
@@ -44,7 +39,6 @@
 					<li><a href="<c:url value='/solution/solution02'/>">가상데스크톱</a></li>
 					<li><a href="<c:url value='/solution/solution02_2'/>">서버가상화</a></li>
 					<li><a href="<c:url value='/solution/solution04_4'/>">네트워크스위치</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution02_3'/>">NFV</a></li> --%>
 					<li><a href="<c:url value='/solution/solution02_4'/>">ACCORDION</a></li>
 				</ul>
 			</li>
@@ -53,7 +47,6 @@
 	<!--//페이지경로-->
 
 	<div id="sub_middle">
-		<h3 class="ctle">네트워크 스위치</h3>
 		
 		<!--컨텐츠 S-->
 		<div class="contents">
@@ -61,310 +54,487 @@
 			<div class="solution_hd sol04">
 				<div class="inner">
 					<h3 class="hd_tit">네트워크 스위치</h3>
-					<p class="mtxt sol04_content">대형 클라우드 사업자가 요구하는 요구사항을 만족하는 고성능, 고품질 네트워크 솔루션 입니다.</span></p>
-					<!-- <p class="center">AIVFW(APPLICATION INSIGHT VOIP FIREWALL)는 완전한 SIP/RTP 프로토콜 분석을 기반으로 과금우회, 콜 스팸 및 호 가로채기 등 외부로부터 VoIP 서버를 대상으로 한 비정상적인 침해 행위에 대한 탐지 및 차단 기능을 제공하는 인터넷 전화(VoIP) 전용 방화벽 제품입니다.</p> -->
+					<p class="mtxt sol04_content">
+					"네트워크 운영 자동화 및 가시성 확보를 위한 라이선스 제공"<br/>
+					"네트워크 안정성 확보를 위한 전원 이중화 제공"
+					</p>
 				</div>	
 			</div>
 			<div class="inner">
 				<div class="solution01">
-
 					<h3 class="cnt_tit">주요 특징</h3>
 					<div class="con_wr">
 						<p class="sol4_04_in_title">클라우드 네트워크 요구 사항과 아리스타의 특징</p>
 						<div class="sol4_04_sec1con1_wrap1">
 							<div class="sol4_04_sec1con1_title">차세대 네트워크 아키텍처</div>
 							<div class="sol4_04_sec1con1_img sol4_04_sec1con1_img1"><img src="../../resources/new_img/arista_img1.jpg" alt="img"/></div>
-							<div class="sol4_04_sec1con1_p">스파인 – 리프 구조<br/>확장성 높은 차세대 구조<br/>분산처리/가상화 서비스 지원에 알맞은 구조</div>
+							<div class="sol4_04_sec1con1_p">
+								<p>스파인 – 리프 구조<br/>확장성 높은 차세대 구조<br/>분산처리/가상화 서비스 지원에 알맞은 구조<p>
+							</div>
 						</div>
 						<div class="sol4_04_sec1con1_wrap1">
 							<div class="sol4_04_sec1con1_title">빠른 스피드 최고의 안정성</div>
 							<div class="sol4_04_sec1con1_img sol4_04_sec1con1_img2"><img src="../../resources/new_img/arista_img2.png" alt="img"/></div>
-							<div class="sol4_04_sec1con1_p">1/10/25G  → 100/400G 성능<br/>대용량 DWDM 인프라 구축<br/>최고의 저지연 / 품질 보장</div>
+							<div class="sol4_04_sec1con1_p">
+								<p>1/10/25G  → 100/400G 성능<br/>대용량 DWDM 인프라 구축<br/>최고의 저지연 / 품질 보장</p>
+							</div>
 						</div>
 						<div class="sol4_04_sec1con1_wrap1">
 							<div class="sol4_04_sec1con1_title">개방형 네트워크 표준 기술 사용</div>
 							<div class="sol4_04_sec1con1_img sol4_04_sec1con1_img3"><img src="../../resources/new_img/arista_img3.png" alt="img"/></div>
-							<div class="sol4_04_sec1con1_p">개방형 표준 기술 사용 (lock-in 방지)<br/>이기종 장비 및 다양한 솔루션 수용<br/>최신 차세대 네트워크 기술 수용</div>
+							<div class="sol4_04_sec1con1_p">
+								<p>개방형 표준 기술 사용 (lock-in 방지)<br/>이기종 장비 및 다양한 솔루션 수용<br/>최신 차세대 네트워크 기술 수용</p>
+							</div>
 						</div>
 						<div class="sol4_04_sec1con1_wrap1">
 							<div class="sol4_04_sec1con1_title">네트워크 운영 자동화 및 가시성 확보</div>
 							<div class="sol4_04_sec1con1_img sol4_04_sec1con1_img4"><img src="../../resources/new_img/arista_img4.png" alt="img"/></div>
-							<div class="sol4_04_sec1con1_p">네트워크 구축 / 확장 자동화<br/>실시간 모니터링(Telemetry)<br/>망 상태 분석 및 가시성 확대</div>
+							<div class="sol4_04_sec1con1_p">
+								<p>네트워크 구축 / 확장 자동화<br/>실시간 모니터링(Telemetry)<br/>망 상태 분석 및 가시성 확대</p>
+							</div>
 						</div>
 					</div>
 
-					<div class="con_wr">
-						<p class="sol4_04_in_title">클라우드 네트워크의 핵심 프로토콜 EVPN-VXLAN</p>
-						<p class="sol4_04_in_content">EVPN-VXLAN 기술을 사용하면 Mobility, Multitenant, Traffic Steering과 같은 고급 SDN 기능을 사용할 수 있습니다.<br/>
-						표준을 지원하는 모든 장비와 호환되어 벤더 Lock-in 없는 네트워크를 구축할 수 있습니다.<br/>
-						MP-BGP 기반의 프로토콜로 컨트롤러 없이 기존 지식으로 SDN 네트워크를 운영할 수 있습니다.</p>
-						<div class="box_wr"><img src="../../resources/new_img/arista_img5.jpg" alt="img"/></div>
+					<h3 class="cnt_tit solt_04_cnt_tit">운영 자동화</h3>
+					<div class="sol4_4_con">
+						<div class="sol4_4_inCon2">
+							<div class="sol4_04_in_content">
+								<ul>ZTP(Zero Touch Provisioning) / ZTR</ul>
+								<li>스위치를 물리적으로 연결하면 자동으로 구성</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>Workflow / Change Control</ul>
+								<li>복잡한 변경 작업을 자동화</li>
+								<li>쉬운 점검 및 롤백</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>무중단 업그레이드</ul>
+								<li>이중화 된 장비 업그레이드 (MLAG, BGP SSU)</li>
+								<li>이중화 되지 않은 단일 박스 장비<br/>
+									(Hitless Upgrade)</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>eAPI</ul>
+								<li>명령어 기반의 API</li>
+								<li>별도의 학습 없이 손쉽게 API 사용 가능</li>
+							</div>
+						</div>
+						<div class="sol4_4_inImgCon2"><img class="sol4_4_imgSize2" src="../../resources/new_img/arist1.JPG" alt="img"/></div>
 					</div>
 
-					<div class="con_wr">
-						<p class="sol4_04_in_title">벤더 종속방지를 위한 표준 프로토콜 사용</p>
-						<p class="sol4_04_in_content">아리스타 네트웍스는 표준 기술 기반의 기술만을 사용하여 이기종간 상호 호환성을 보장합니다.<br/>
-						벤더 Lock-in 없는 네트워크를 구축할 수 있습니다.</p>
-						<biv class="box_wr"><img src="../../resources/new_img/arista_img6.jpg" alt="img"/></div>
+					<h3 class="cnt_tit solt_04_cnt_tit">높은 가시성</h3>
+					<div class="sol4_4_con">
+						<div class="sol4_4_inCon2">
+							<div class="sol4_04_in_content">
+								<ul>텔레미트리를 이용한 예측 분석</ul>
+								<li>텔레메트리 정보를 기반으로 ML사용</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>LANZ(버퍼 모니터링)</ul>
+								<li>ns단위 큐 모니터링</li>
+								<li>큐드랍,큐 크기,레이턴시 세부 모니터링</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>sflow ‒ 트래픽 상세 분석</ul>
+								<li> 별도 장비 없이 sflow를 이용한 트래픽 모니터링</li>
+								<li>트래픽 현황 모니터링 (장비별, 애플리케이션별 등)</li>
+								<li>메트릭별 플로 조회</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>기타 ‒ INT, DMF</ul>
+								<li>Inband Telemetry 기능을 이용한 세부 모니터링</li>
+								<li>DMF를 이용한 별도의 가시성 네트워크 구성</li>
+							</div>
+						</div>
+						<div class="sol4_4_inImgCon2"><img class="sol4_4_imgSize3" src="../../resources/new_img/arist2.JPG" alt="img"/></div>
 					</div>
 
-					<div class="con_wr">
-						<p class="sol4_04_in_title">SDDC 구현을 위한 방식 비교 (클라우드 네트워크의 이점)</p>
-						<p class="sol4_04_in_content">대형 클라우드 사업자가 네트워크를 운영하는 방식이 가장 현실화된 SDN 기술입니다.<br/> 
-						클라우드 네트워크 기술로 컨트롤러와 특정 회사의 Vendor Lock-in이 없는 대형 SDN 네트워크를 구축할 수 있습니다.</p>
-						<div class="box_wr sol4_04_img"><img src="../../resources/new_img/arista_img20.jpg" alt="img"/></div>
-					</div>
-
-
-					<h3 class="cnt_tit solt_04_cnt_tit">AI/ML 기술을 이용한 장애 예측과 가시성 증가</h3>
-					<div class="con_wr">
-						<div class="con_wr">
-						<p class="sol4_04_in_content">아리스타는 다양한 분야에서 AI/ML 기술을 활용하여 장애를 예측하고 가시성을 높입니다.<br/> 
-						CloudVision 제품을 사용하면 네트워크 운영의 가시성을 높이고 하드웨어 장애를 미리 예측할 수 있습니다.</p>
-						<div class="box_wr sol4_04_img"><img src="../../resources/new_img/arista_img7.jpg" alt="img"/></div>
+					<h3 class="cnt_tit solt_04_cnt_tit">소규모 HCI/VDI 환경</h3>
+					<div class="in_title">데이터센터 - 소규모 HCI/VDI환경</div>
+					<div class="sol4_4_con">
+						<div class="sol4_4_inImgCon2"><img class="sol4_4_imgSize4" src="../../resources/new_img/arist3.JPG" alt="img"/></div>
+						<div class="sol4_4_inCon2">
+							<div class="sol4_04_in_content">
+								<ul>중/소규모 HCI 환경에 적합한 Deep 버퍼 라인</ul>
+								<li>중/소규모 VDI 환경에 적합한 10G Deep 버퍼 스위치</li>
+								<li>7020SR-24C2, 7020SR-32C2</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>고 성능, 고 가용성의 네트워크 제공</ul>
+								<li> Deep 버퍼 스위치를 이용한 유실 없는 고성능 네트워크 구성</li>
+								<li>MLAG을 이용한 이중화 / 로드 분산</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>사용 스위치</ul>
+								<li>7020SR-24C2, 7020SR-32C2</li>
+								<li>7280SR3-48YC8</li>
+								<li>메트릭별 플로 조회</li>
+							</div>
+							<div class="sol4_04_in_content sol4_04_inConImgWrap sol4_04_inConImgWrap4">
+								<ul>고객 사례</ul>
+								<li><img src="../../resources/new_img/conlogo0.png" alt="img"/></li>
+								<li>
+									<img src="../../resources/new_img/conlogo.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo3.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo4.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo2.png" alt="img"/>
+								</li>
+							</div>
 						</div>
 					</div>
 
-
-					<h3 class="cnt_tit solt_04_cnt_tit">차세대 데이터센터 네트워크 아키텍처</h3>
-					<div class="con_wr">
-						<div class="con_wr">
-						<p class="sol4_04_in_content">Spine-Leaf 구조, 서비스 마다 최적화된 노트 구성으로 인프라 확장성 및 운용 효율성 제공 네트워크 설치 및 교체를 자동화하여 단순 작업 제거</p>
-						<div class="box_wr sol4_04_img"><img src="../../resources/new_img/arista_img8.jpg" alt="img"/></div>
+					<h3 class="cnt_tit solt_04_cnt_tit">TAP Aggregation</h3>
+					<div class="in_title">TAP Aggregation</div>
+					<div class="sol4_4_con">
+						<div class="sol4_4_inImgCon2"><img class="sol4_4_imgSize5" src="../../resources/new_img/arist4.JPG" alt="img"/></div>
+						<div class="sol4_4_inCon2">
+							<div class="sol4_04_in_content">
+								<ul>네트워크 가시성을 위한 모니터링 트래픽 전달</ul>
+								<li>보안 Tool 혹은 네트워크 패킷 모니터링</br>
+ 								플랫폼으로 트래픽을 모아 전달</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>높은 버퍼를 이용한 혼잡 회피</ul>
+								<li>트래픽 Aggregation시 혼잡으로 인한 
+ 								Packet Drop 문제 감소</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>사용 스위치</ul>
+								<li>7020SR-24C2, 7020SR-32C2</li>
+								<li>7280SR3-48YC8</li>
+								<li>메트릭별 플로 조회</li>
+							</div>
+							<div class="sol4_04_in_content sol4_04_inConImgWrap sol4_04_inConImgWrap5">
+								<ul>고객 사례</ul>
+								<li>
+									<img src="../../resources/new_img/conlogo6.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo7.png" alt="img"/>
+								</li>
+								<li>
+									<img src="../../resources/new_img/conlogo8.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo9.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo10.png" alt="img"/>
+								</li>
+							</div>
 						</div>
 					</div>
 
+					<h3 class="cnt_tit solt_04_cnt_tit">소규모 사무용 네트워크</h3>
+					<div class="in_title">캠퍼스 ‒ 소규모 캠퍼스 환경 (500 노드 이하)</div>
+					<div class="sol4_4_con">
+						<div class="sol4_4_inImgCon2"><img class="sol4_4_imgSize6" src="../../resources/new_img/arist7.JPG" alt="img"/></div>
+						<div class="sol4_4_inCon2">
+							<div class="sol4_04_in_content">
+								<ul>중/소규모 사무 환경을 위한 스위치 구성</ul>
+								<li>모든 회선을 동시에 사용하여 성능을 높이는 다양한 기술 적용</li>
+								<li>Spine 스위치를 이용하여 손쉽게 네트워크 추가 확장 가능</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>사용자 중심 / 서비스 중심 네트워크</ul>
+								<li>사용자 위치에 상관 없이 이동 가능한 Mobility 기술 적용</li>
+								<li>논리적인 망분리 기술, Segmentation 기술로 보안 강화</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>단일 관리 플랫폼</ul>
+								<li>유/무선 네트워크가 완전히 통합되어 손쉬운 운영과 관리</li>
+								<li>사용자 정보/포트 연결 정보/트래픽 정보를 이용하여<br/>
+ 								쉬운 문제 해결</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>사용 스위치</ul>
+								<li>Spine ‒ 7050SX3-48YC8</li>
+								<li>Leaf - 720XP-48ZC2</li>
+								<li>Access ‒ 720XP-48Y6</li>
+							</div>
+						</div>
+					</div>
 
-					<h3 class="cnt_tit solt_04_cnt_tit">아리스타 스위치 제품군 특징</h3>
-					<div class="con_wr">
-						<p class="sol4_04_in_content">아리스타 네트웍스는 통합 네트워크에 맞는 다양한 제품군을 제공하고 있습니다.
-						일반 이더넷 스위치 뿐만 아니라 유일한 Deep Buffer 풀 라인업과 초고속, Low Latency 스위치 제품 포트폴리오를 모두 갖추었습니다.</p>
-						<div class="sol4_04_sec1con1_wrap1 sol4_04_sec1con1_wrap2">
-							<div class="sol4_04_sec1con1_title">일반 이더넷 스위치</div>
-							<div class="sol4_04_sec1con1_img sol4_04_sec1con1_2img_1"><img src="../../resources/new_img/arista_img9.jpg" alt="img"/></div>
-							<div class="sol4_04_sec1con1_p sol4_04_sec1con2_p">- 범용 스위치<br/>- 데이터센터, 캠퍼스 Leaf, Spine<br/>- 적절한 성능과 기능</div>
+					<h3 class="cnt_tit solt_04_cnt_tit">중규모 데이터센터 (종합 서비스)</h3>
+					<div class="in_title">데이터센터 ‒ 중규모 (700 노드 이하)</div>
+					<div class="sol4_4_con">
+						<div class="sol4_4_inImgCon2"><img class="sol4_4_imgSize7" src="../../resources/new_img/arist5.JPG" alt="img"/></div>
+						<div class="sol4_4_inCon2">
+							<div class="sol4_04_in_content">
+								<ul>L3 (IP) 기반의 CLOS 아키텍쳐</ul>
+								<li>스파인 리프 구성을 통해 균등한 Latency제공</li>
+								<li>기존 L2의 잠재적 장애 해소</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>다양한 서비스 수용</ul>
+								<li>Hypervisor, HCI, IP Storage, BigData와 같은 다양한 서비스 수용</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>고 성능, 고 가용성의 네트워크 제공</ul>
+								<li>무중단 업그레이드 기능을 제공하여 중단 없는 네트워크 운영</li>
+								<li> 일부 필요 구간에만 Deep 버퍼 스위치 사용하여 적은 투자 비용으로
+ 								고성능 네트워크 구축</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>사용 스위치</ul>
+								<li>Spine - 7050CX3-32S</li>
+								<li>Leaf (Compute) - 7050SX3-48YC8, 7050TX3-48C8</li>
+								<li>Leaf (Storage, Edge) - 7280SR3-48C8</li>
+							</div>
 						</div>
-						<div class="sol4_04_sec1con1_wrap1 sol4_04_sec1con1_wrap2">
-							<div class="sol4_04_sec1con1_title">Deep 버퍼 스위치</div>
-							<div class="sol4_04_sec1con1_img sol4_04_sec1con1_2img_2"><img src="../../resources/new_img/arista_img10.jpg" alt="img"/></div>
-							<div class="sol4_04_sec1con1_p sol4_04_sec1con2_p">- Deep 버퍼 스위치<br/>- IP Storage, Big Data를 위한 고성능 네트워크<br/>- 인터넷 라우터 대체</div>
-						</div>
-						<div class="sol4_04_sec1con1_wrap1 sol4_04_sec1con1_wrap2">
-							<div class="sol4_04_sec1con1_title">초고속 Low Latency 스위치</div>
-							<div class="sol4_04_sec1con1_img sol4_04_sec1con1_2img_3"><img src="../../resources/new_img/arista_img11.jpg" alt="img"/></div>
-							<div class="sol4_04_sec1con1_p sol4_04_sec1con2_p">- 초고속 Low Latency 스위치<br/>- 범용 스위치<br/>- 데이터센터 Spine</div>
+					</div>
+
+					<h3 class="cnt_tit solt_04_cnt_tit">대규모 사무용 네트워크</h3>
+					<div class="in_title">캠퍼스 ‒ 대규모 (수천 노드 이상)</div>
+					<div class="sol4_4_con">
+						<div class="sol4_4_inImgCon2"><img class="sol4_4_imgSize8" src="../../resources/new_img/arist6.JPG" alt="img"/></div>
+						<div class="sol4_4_inCon2">
+							<div class="sol4_04_in_content">
+								<ul>데이터센터 기술을 그대로 사용</ul>
+								<li>고 성능, 고 가용성을 제공하는 데이터센터와 동일 기술 사용</li>
+								<li>데이터센터와 동일한 자동화, 모니터링 기능 사용</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>사용자중심/서비스 중심 네트워크</ul>
+								<li> 위치에 상관 없이 층/건물/사이트를 이동하더라도 같은 IP 사용</li>
+								<li>Segmentation 기술을 사용하여 보안 강화</li>
+							</div>
+							<div class="sol4_04_in_content">
+								<ul>한국형 캠퍼스 네트워크</ul>
+								<li>국내 인증서버 (AirCUVE), 국내 NAC과의 호환성 확보</li>
+								<li>허브 사용이 많은 국내 환경에 맞는 인증 기술 확보 (MBVA)</li>
+							</div>
+							<div class="sol4_04_in_content sol4_04_inConImgWrap sol4_04_inConImgWrap8">
+								<ul>고객 사례</ul>
+								<li>
+									<img src="../../resources/new_img/conlogo11.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo12.png" alt="img"/>
+								</li>
+								<li>
+									<img src="../../resources/new_img/conlogo13.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo14.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo15.png" alt="img"/>
+									<img src="../../resources/new_img/conlogo16.png" alt="img"/>
+								</li>
+							</div>
 						</div>
 					</div>
 
 					<h3 class="cnt_tit solt_04_cnt_tit solt_04_cnt_tit">빠른 스피드, 안정적인 제품라인</h3>
-					<div class="con_wr">
-						<div class="con_wr">
+					<div class="solt_04ImgBox">
+						<div class="sol4_4_conImg9">
 						<img src="../../resources/new_img/arista_img120.jpg" alt="img"/>
 						</div>
 					</div>
 
-
 					<h3 class="cnt_tit sol4_04_last_title solt_04_cnt_tit">ARISTA 제품 상세 정보</h3>
-					<div class="con_wr">
+					<div class="sol4_04TableWrap">
                         <table class="AISWG_table p_AISWG_table" border="1px" width="100%">
 							<tr class="ssl_table_tit">
-								<th>Specification</th>
+								<th></th>
 								<th>7050CX3-32S</th>
+								<th>7050SX3-48YC12</th>
 								<th>7050SX3-48YC8</th>
 								<th>7050SX3-48C8</th>
-								<th>7020SR-32C2</th>
+								<th>7050TX3-48C8</th>
 							</tr>
 							<tr class="ssl_table_img">
-								<td>Appearance</td>
-								<td><img src="../../../resources/new_img/arista_img12.jpg" alt="img"/></td>
-								<td><img src="../../../resources/new_img/arista_img13.jpg" alt="img"/></td>
-								<td><img src="../../../resources/new_img/arista_img14.jpg" alt="img"/></td>
-								<td><img src="../../../resources/new_img/arista_img15.jpg" alt="img"/></td>
+								<td>image</td>
+								<td><img src="../../../resources/new_img/7050CX32S.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7050SX348YC12.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7050SX348YC8.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7050SX348C8.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7050TX348C8.png" alt="img"/></td>
 							</tr>
 							<tr>
-								<td>식별 번호</td>
+								<td>ports</td>
+								<td>32 x QSFP100, 2 x SFP+</td>
+								<td>48 x SFP25, 12 x QSFP100</td>
+								<td>48 x SFP25, 8 x QSFP100</td>
+								<td>48 x SFP+, 8 x QSFP100</td>
+								<td>48 x 10G-T, 8 x QSFP100</td>
+							</tr>
+							<tr>
+								<td>식별번호</td>
 								<td>24433370</td>
+								<td>24638871</td>
 								<td>24426610</td>
 								<td>24426609</td>
-								<td>24426575</td>
+								<td>24638872</td>
 							</tr>
 							<tr>
-								<td>Throughput</td>
-								<td>6.4Tbps</td>
-								<td>4Tbps</td>
-								<td>2.56Tbps</td>
-								<td>1.04Tbps</td>
-							</tr>
-							<tr>
-								<td>Packets/Second</td>
-								<td>2Bpps
+								<td>금액</td>
+								<td>48,918,000원
 								</td>
-								<td>1Bpps
+								<td>미등록
 								</td>
-								<td>1Bpps
+								<td>37,665,000원
 								</td>
-								<td>300Mpps
+								<td>30,969,000원
 								</td>
-							</tr>
-							<tr>
-								<td>Interfaces</td>
-								<td>32 x QSFP100<br/> 2x SFP+</td>
-								<td>48 x SFP25<br/> 8 x QSFP100</td>
-								<td>48 x SFP+<br/> 8 x QSFP100</td>
-								<td>32 x SFP+<br/> 2 x QSFP100</td>
+								<td>미등록
+								</td>
 							</tr>
                     	</table>
 					</div>
-					<div class="con_wr">
+					<div class="sol4_04TableWrap">
                         <table class="AISWG_table p_AISWG_table" border="1px" width="100%">
 							<tr class="ssl_table_tit">
-								<th>Specification</th>
+								<th></th>
+								<th>7280SR3-48YC8</th>
+								<th>7280TR-48C6</th>
+								<th>7020SR-32C2</th>
 								<th>7020SR-24C2</th>
+								<th>7020TR-48</th>
+							</tr>
+							<tr class="ssl_table_img">
+								<td>image</td>
+								<td><img src="../../../resources/new_img/7280SR348YC8.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7280TR48C6.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7020SR32C2.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7020SR24C2.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7020TR48.png" alt="img"/></td>
+							</tr>
+							<tr>
+								<td>ports</td>
+								<td>48 x SFP25, 8 x QSFP100</td>
+								<td>48 x 10G-T, 6 x QSFP100</td>
+								<td>32 x SFP+, 2 x QSFP100</td>
+								<td>24 x SFP+, 2 x QSFP100</td>
+								<td>48 x 1G-T, 6 x SFP+</td>
+							</tr>
+							<tr>
+								<td>식별번호</td>
+								<td>24638873</td>
+								<td>24638874</td>
+								<td>24426575</td>
+								<td>24426572</td>
+								<td>24638869</td>
+							</tr>
+							<tr>
+								<td>금액</td>
+								<td>미등록
+								</td>
+								<td>미등록
+								</td>
+								<td>미등록
+								</td>
+								<td>21,762,000원
+								</td>
+								<td>미등록
+								</td>
+							</tr>
+                    	</table>
+					</div>
+
+					<div class="sol4_04TableWrap">
+                        <table class="AISWG_table p_AISWG_table" border="1px" width="100%">
+							<tr class="ssl_table_tit">
+								<th></th>
+								<th>720XP-96ZC2</th>
+								<th>720XP-48ZC2</th>
+								<th>720XP-24ZY4</th>
 								<th>720XP-48Y6</th>
 								<th>720XP-24Y6</th>
 								<th>7010TX-48</th>
 							</tr>
 							<tr class="ssl_table_img">
-								<td>Appearance</td>
-								<td><img src="../../../resources/new_img/arista_img16.jpg" alt="img"/></td>
-								<td><img src="../../../resources/new_img/arista_img17.jpg" alt="img"/></td>
-								<td><img src="../../../resources/new_img/arista_img18.jpg" alt="img"/></td>
-								<td><img src="../../../resources/new_img/arista_img19.jpg" alt="img"/></td>
+								<td>image</td>
+								<td><img src="../../../resources/new_img/720XP96ZC2.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/720XP48ZC2.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/720XP24ZY4.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/720XP-48Y6.png" alt="img"/></td>
+								<td><img src="../../../resources/new_img/720XP24Y6.jpg" alt="img"/></td>
+								<td><img src="../../../resources/new_img/7010TX48.jpg" alt="img"/></td>
 							</tr>
 							<tr>
-								<td>식별 번호</td>
-								<td>24426572</td>
+								<td>ports</td>
+								<td>80 x 2.5G-T ( POE ),<br/> 
+								16 x 5G-T ( POE ),<br/> 
+								4 x SFP25,  2 x QSFP100
+								</td>
+								<td>40 x 2.5G-T ( POE ),<br/> 
+								8 x 5G-T ( POE ),<br/>
+								4 x SFP25,  2 x QSFP100
+								</td>
+								<td>16 x 2.5G-T ( POE ),<br/> 
+								8 x 5G-T ( POE ),<br/>
+								4 x SFP25,
+								</td>
+								<td>48 x 1G-T ( POE ),<br/> 
+								6 x SFP25
+								</td>
+								<td>24 x 1G-T ( POE ),<br/> 
+								6 x SFP25
+								</td>
+								<td>24 x 1G-T ( POE ),<br/> 
+								48 x 1G-T,<br/> 
+								4 x SFP25
+								</td>
+							</tr>
+							<tr>
+								<td>식별번호</td>
+								<td>24638868</td>
+								<td>24638867</td>
+								<td>24638866</td>
 								<td>24425185</td>
 								<td>24425186</td>
 								<td>24425199</td>
 							</tr>
 							<tr>
-								<td>Throughput</td>
-								<td>880Gbps</td>
-								<td>420Gbps</td>
-								<td>372Gbps</td>
-								<td>296Gbps</td>
-							</tr>
-							<tr>
-								<td>Packets/Second</td>
-								<td>300Mpps
+								<td>금액</td>
+								<td>미등록
 								</td>
-								<td>312Mpps
+								<td>미등록
 								</td>
-								<td>276Mpps
+								<td>미등록
 								</td>
-								<td>220Mpps
+								<td>16,740,000원
 								</td>
-							</tr>
-							<tr>
-								<td>Interfaces</td>
-								<td>24 x SFP+<br/>2 x QSFP100</td>
-								<td>48 x RJ45 (POE)<br/>6 x SFP25</td>
-								<td>24 x RJ45 (POE)<br/>6 x SFP25</td>
-								<td>48 x RJ-45<br/>4 x SFP25</td>
+								<td>13,206,000원
+								</td>
+								<td>미등록
+								</td>
 							</tr>
                     	</table>
 					</div>
 
-					
-					<%-- <h3 class="cnt_tit">특징</h3>
-					<div class="con_wr">
-						<ul class="adv02">
-							<li>
-								<p><span class="ic_st sol_ic27"></span> </p>
-								<dl>
-									<dt>리눅스 환경 지원</dt>
-									<dd>
-										- Linux CentOS 5 이상 지원
-									</dd>
-									<dd>
-										- MS CAL 비용 부담 해소 (MySQL DB 사용)
-									</dd>
-								</dl>
-							</li>
-							<li>
-								<p><span class="ic_st sol_ic28"></span></p>
-								<dl>
-									<dt>편리한 조직 관리</dt>
-									<dd>
-										- 소규모에서 대규모 전산 환경까지 구성 가능한 유연한 조직 관리 
-									</dd>
-								</dl>
-							</li>
-							<li>
-								<p><span class="ic_st sol_ic29"></span></p>
-								<dl>
-									<dt>인증</dt>
-									<dd>
-										- CC인증 획득
-									</dd>
-									<dd>
-										- GS인증 1등급 획득
-									</dd>
-								</dl>
-							</li>
-						</ul>
-					</div>
-					
-					<h3 class="cnt_tit">사용 환경 (관리서버)</h3>
-					<div class="con_wr">
-						<div class="table-responsive">
-							<table cellpadding="0" cellspacing="0" border="0" class="tbl">
-								<caption class="blind"></caption>
-								<colgroup>
-									<col width="50%" />
-									<col width="50%" />
-								</colgroup>
-								<thead>
-									<tr>
-										<th>소프트웨어</th>
-										<th>하드웨어</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="lft">- Windows Server 2008 R2 / 2012 (64bit 지원)<br>
-										CentOS 6.4 (64bit 지원)
-										</td>
-										<td class="lft">
-											- Quad Core 3.0Ghz / RAM 8GB / HDD 500GB 이상<br>
-											- VGA 1280X1024 / NIC 1000Mbps 이상
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
+					<div class="sol4_04TableWrap">
+                        <table class="AISWG_table p_AISWG_table" border="1px" width="100%">
+							<tr class="ssl_table_tit">
+								<th></th>
+								<th>SFP-1G-SX</th>
+								<th>SFP-1G-LX</th>
+								<th>SFP-10G-SR</th>
+								<th>SFP-10G-LR</th>
+								<th>QSFP-40G-SR4</th>
+							</tr>
 
-					<h3 class="cnt_tit">사용 환경 (클라이언트)</h3>
-					<div class="con_wr">
-						<div class="table-responsive">
-							<table cellpadding="0" cellspacing="0" border="0" class="tbl">
-								<caption class="blind"></caption>
-								<colgroup>
-									<col width="50%" />
-									<col width="50%" />
-								</colgroup>
-								<thead>
-									<tr>
-										<th>소프트웨어</th>
-										<th>하드웨어</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="lft">- Windows 7 / 8 / 8.1 / 10 (32, 64bit 지원)
-										</td>
-										<td class="lft">
-											- Dual Core 2.4Ghz / RAM 2GB / HDD 160GB 이상<br>
-											- NIC 100Mbps 이상
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div> --%>
-					
+							<tr>
+								<td>사양</td>
+								<td>1000BASE-SX SFP<br/> (Short Haul)</td>
+								<td>1000BASE-LX SFP<br/>(Long Haul)</td>
+								<td>10GBASE-SR SFP+<br/>(Short Reach)</td>
+								<td>10GBASE-LR SFP+<br/>(Long Reach)</td>
+								<td>40GBASE-SR4 QSFP+</td>
+							</tr>
+							<tr>
+								<td>식별번호</td>
+								<td>24585456</td>
+								<td>24585455</td>
+								<td>24443640</td>
+								<td>24443643</td>
+								<td>24443641</td>
+							</tr>
+							<tr>
+								<td>금액</td>
+								<td>162,750원
+								</td>
+								<td>269,750원
+								</td>
+								<td>576,600원
+								</td>
+								<td>688,900원
+								</td>
+								<td>1,150,000원
+								</td>
+							</tr>
+                    	</table>
+					</div>
 				</div>
 			</div>
 			<!--//보안USB E-->

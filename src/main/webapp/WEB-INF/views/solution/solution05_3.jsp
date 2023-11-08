@@ -41,7 +41,7 @@
 				<ul>
 					<!--<li><a href="<c:url value='/solution/solution05'/>">데이터베이스관리소프트웨어</a></li>	-->
 					<li><a href="<c:url value='/solution/solution05_2'/>">WORM 스토리지</a></li>
-					<li><a href="<c:url value='/solution/solution05_3'/>"eXperDB</a></li>		
+					<li><a href="<c:url value='/solution/solution05_3'/>">eXperDB</a></li>		
 				</ul>
 			</li>
 		</ul>

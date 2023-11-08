@@ -18,25 +18,20 @@
 		<ul class="depth">
 			<li class="home"><a href="<c:url value='/main/index'/>" title="홈으로 가기">&nbsp;</a></li>
 			<li class="depth_sub">
-				<a href="javascript:void('0')">클라우드</a>
+				<a href="javascript:void('0')">사업영역</a>
 				<ul>
 					<li><a href="<c:url value='/company/company01'/>">회사소개</a>
-					<li><a href="<c:url value='/solution/solution01'/>" >SECURITY</a>
-					<li><a href="<c:url value='/solution/solution03'/>" >DBMS</a>
-					<li><a href="<c:url value='/solution/solution02'/>" >클라우드</a>
-					<li><a href="<c:url value='/procure/procure01'/>" >조달제품</a>
-					<li><a href="<c:url value='/security/security01'/>">보안SI</a>
-					<li><a href="<c:url value='/maintenance/maintenance01'/>">유지보수</a>
-					<li><a href="<c:url value='/news/notice_list'/>">NEWS</a>
+					<li><a href="<c:url value='/solution/solution01_2'/>" >사업영역</a>
+					<li><a href="<c:url value='/procure/procure01'/>">조달제품</a>
+					<li><a href="https://blog.naver.com/PostList.naver?blogId=visiontek1&from=postList&categoryNo=1" target="_blank">소식</a>
 				</ul>
 			</li>
 			<li class="depth_sub"><a href="javascript:void('0')">클라우드</a>
 				<ul>
-					<%-- <li><a href="<c:url value='/solution/solution01'/>">보안솔루션</a></li> --%>
+					<li><a href="<c:url value='/solution/solution03_2'/>">지능형 IoT</a></li>
+					<li><a href="<c:url value='/solution/solution01_2'/>">solution</a></li>
 					<li><a href="<c:url value='/solution/solution02'/>">클라우드</a></li>
-					<%-- <li><a href="<c:url value='/solution/solution03'/>">Database</a></li> --%>
-					<!-- <li><a href="<c:url value='/solution/solution04'/>">엔드 포인트 보안</a></li>
-					<li><a href="<c:url value='/solution/solution05'/>">Other Solution</a></li> -->
+					<li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
 				</ul>
 			</li>
 			<li class="depth_sub2"><a href="javascript:void('0')">서버가상화</a>
@@ -45,7 +40,6 @@
 					<li><a href="<c:url value='/solution/solution02_2'/>">서버가상화</a></li>
 					<li><a href="<c:url value='/solution/solution04_4'/>">네트워크스위치</a></li>
 					<li><a href="<c:url value='/solution/solution02_4'/>">ACCORDION</a></li>
-					<!-- <li><a href="<c:url value='/solution/solution02_4'/>">ACCORDION</a></li> -->
 				</ul>
 			</li>
 		</ul>
@@ -53,7 +47,6 @@
 	<!--//페이지경로-->
 
 	<div id="sub_middle">
-		<h3 class="ctle">서버가상화</h3>
 		
 		<!--컨텐츠 S-->
 		<div class="contents">
