@@ -39,7 +39,6 @@ body {
  
 /* 헤더 */
 header{width:100%; height:60px; position:fixed; z-index: 999; top:0;}
-header > .top_btn{display: none;}
 #logo{float: left;}
 #logo img{float: left; width:170px; padding:28px 0 0 60px; position: absolute; z-index: 10;}
 
@@ -49,13 +48,85 @@ nav>ul{display: flex; justify-content:center; text-align: center;}
 .menu>a{font-size: 16px; color:#fff;}
 .menu-in-wrap li{line-height:40px; text-align: center; display: none;}
 header:hover .menu-in-wrap li{display: block;}
-header:hover{background-color: #fff; height:50%;}
+header:hover{background-color: #fff; height:310px;}
 header:hover .menu>a{color:#212121; font-weight: 600;}
+header:hover .btn_remote a{color:#000; font-weight: 600;}
 
 #header-bottom{width:100%; border:1px solid rgba(177, 177, 177, 0.5); position: absolute; top:80px; display: none;}
 .s2-bottom-line{bottom:1px solid rgba(255, 255, 255, 0.7); width:100%; }
 header:hover #header-bottom{display: block;}
 
+#sub_container {
+	clear:both; 
+	width: 100%; 
+	overflow:hidden;
+}
+
+#sub_visual { 
+	width:100%; 
+	height:360px; 
+	text-align:center; 
+	overflow:hidden; 
+	position:relative; 
+}
+#sub_visual .viimg { 
+	width:100%; 
+	height:360px; 
+}
+@-webkit-keyframes visualZoom {
+	0% {height:120%;}
+	100% {height:100%;}
+}
+@-moz-keyframes visualZoom {
+	0% {height:120%;}
+	100% {height:100%;}
+}
+@-o-keyframes visualZoom {
+	0% {height:120%;}
+	100% {height:100%;}
+}
+@keyframes visualZoom {
+	0% {height:120%;}
+	100% {height:100%;}
+}
+.visualZoom {
+	-webkit-animation-name: visualZoom;
+	-moz-animation-name: visualZoom;
+	-o-animation-name: visualZoom;
+	animation-name: visualZoom;
+	 -webkit-animation-duration: 2s;
+    animation-duration: 2s;	
+}
+#sub_visual .sub_visual_txt {
+	width:100%;
+	margin: 0 auto;
+	text-align:center;
+	position:absolute; 
+	top:43%;
+	z-index: 10;
+}
+#sub_visual .sub_visual_txt .sub_vtxt_line {
+	border-bottom: 1px solid #c21c2c;
+	padding-bottom:5px;
+	margin-bottom:22px;
+}
+#sub_visual .sub_visual_txt h2 {
+	color:#fff;
+	font-size:42px;
+	font-weight:500;
+}
+
+.btn_remote a {
+	width: 86px;
+	height:32px;
+	line-height: 32px;
+	color:#fff;
+	text-align:center;
+	display:inline-block;
+	border-radius: 16px;
+	float:right;
+	line-height: 76px;
+}
 
 /* 푸터 */
 #btn_top {

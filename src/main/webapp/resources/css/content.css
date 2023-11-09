@@ -3,7 +3,7 @@
 
 /* company */
 .svis01 {
-    background: url(sub_visual_01.jpg) no-repeat center top;
+    background: url(/resources/img/company/sub_visual_01.jpg) no-repeat center top;
     background-size: cover;
 }
 
@@ -322,7 +322,7 @@
 
 /* 솔루션 */
 .svis02 {
-    background: url(sub_visual_02.jpeg) no-repeat center;
+    background: url(/resources/img/solution/sub_visual_02.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -2078,7 +2078,7 @@ section, section>div {overflow:hidden; width:100%;}
 
 /* procure */
 .svis03 {
-    background: url(sub_visual_03.jpg) no-repeat center top;
+    background: url(/resources/img/procure/sub_visual_03.jpg) no-repeat center top;
     background-size: cover;
 }
 
