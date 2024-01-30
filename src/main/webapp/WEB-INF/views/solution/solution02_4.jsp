@@ -50,7 +50,7 @@
                 <li class="depth_sub2"><a href="javascript:void('0')">PaloLog</a>
                         <ul>
                                 <li><a href="<c:url value='/solution/solution03'/>">BizCore</a></li>
-                                <li><a href="<c:url value='/solution02_4'/>">PaloLog</a></li>
+                                <li><a href="<c:url value='/solution/solution02_4'/>">PaloLog</a></li>
                         </ul>
                 </li>
         </ul>
