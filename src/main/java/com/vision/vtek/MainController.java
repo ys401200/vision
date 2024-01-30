@@ -61,6 +61,10 @@ public class MainController {
     public String moveToSolution03(Model model) {
         return "/solution/solution03";
     }
+    @RequestMapping("/solution/solution03_1")
+    public String moveToSolution03_1(Model model) {
+        return "/solution/solution03_1";
+    }
     @RequestMapping("/solution/solution03_2")
     public String moveToSolution03_2(Model model) {
         return "/solution/solution03_2";

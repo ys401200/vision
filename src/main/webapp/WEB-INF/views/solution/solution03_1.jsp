@@ -2,9 +2,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!--서브 비주얼이미지 S-->
 <style>
-.biz_secWrap>div{margin-bottom:100px; overflow:hidden;}
+.biz_secWrap>div{margin-bottom:50px; overflow:hidden;}
 @media (max-width:1350px) and (min-width:1025px) {
-        .contents .inner {width:95%;}
+	.contents .inner {width:95%;}
 
 	.biz_sol4_boxWrap {width:70%; margin:0 auto;}
 	.biz_sol4_boxWrap>div {width:180px; height:180px; border:4px solid #5c59a2;}
@@ -16,12 +16,12 @@
 }
 </style>
 <section id="sub_visual">
-        <div class="sub_visual_txt">
-                <span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
-                <h2>제품</h2>
-        </div>
-        <div class="viimg svis02 visualZoom">
-        </div>
+	<div class="sub_visual_txt">
+		<span><img src="<c:url value='/resources/img/common/sub_visual_txt_logo.png'/>" alt="VisionTek" class="sub_vtxt_line"/></span>
+		<h2>제품</h2>
+	</div>
+	<div class="viimg svis02 visualZoom">
+	</div>
 </section>
 <!--//서브 비주얼이미지 E-->
       
@@ -48,7 +48,7 @@
 					<li><a href="<c:url value='/solution/solution03'/>">제품</a></li>
 				</ul>
 			</li>
-			<li class="depth_sub2"><a href="javascript:void('0')">PaloLog</a>
+			<li class="depth_sub2"><a href="javascript:void('0')">BizCore</a>
 				<ul>
 					<li><a href="<c:url value='/solution/solution03'/>">BizCore</a></li>
 					<li><a href="<c:url value='/solution/solution03_1'/>">PaloLog</a></li>
